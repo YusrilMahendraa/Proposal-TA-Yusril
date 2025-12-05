@@ -4,6 +4,6 @@ Institut Teknologi Bandung
 
 Dokumen utama:
 1. ProposalTA.tex
-2. daftar-pustaka.bib
+2. Proposal TA New.bib
 
 by baskara at itb dot ac dot id
