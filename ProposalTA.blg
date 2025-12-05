@@ -1,0 +1,18 @@
+[1] Config.pm:328> INFO - This is Biber 2.21
+[2] Config.pm:331> INFO - Logfile is 'ProposalTA.blg'
+[383] biber-MSWIN64:342> INFO - === 
+[512] Biber.pm:421> INFO - Reading 'ProposalTA.bcf'
+[1156] Biber.pm:1002> INFO - Found 23 citekeys in bib section 0
+[1203] Biber.pm:4487> INFO - Processing section 0
+[1235] Biber.pm:4678> INFO - Looking for bibtex file 'Proposal TA New.bib' for section 0
+[1360] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1527] bibtex.pm:1519> INFO - Found BibTeX data source 'Proposal TA New.bib'
+[2168] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
+[2169] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2169] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2170] Biber.pm:4307> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
+[2170] Biber.pm:4313> INFO - No sort tailoring available for locale 'indonesian'
+[2268] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
+[2326] bbl.pm:779> INFO - Output to ProposalTA.bbl
+[2327] Biber.pm:132> WARN - ISBN '978-1-137-44666-4 978-1-137-44667-1' in entry 'hazelkornRankingsReshapingHigher2015' is invalid - run biber with '--validate_datamodel' for details.
+[2327] Biber.pm:134> INFO - WARNINGS: 1

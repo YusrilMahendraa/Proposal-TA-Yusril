@@ -1,0 +1,1217 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{bahonoImplementasiTeknologiCloud2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5164f3c1246a61b363a0f25fc4f3fd02}{%
+           family={Bahono},
+           familyi={B\bibinitperiod},
+           given={Humam\bibnamedelima Binafidz},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b94852e3c4b2b7994bd83e1bcef2a13}{%
+           family={Rohmatin},
+           familyi={R\bibinitperiod},
+           given={Sinta},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b34c4fb06c344bce60117422f8d427c}{%
+           family={Wati},
+           familyi={W\bibinitperiod},
+           given={Aysah\bibnamedelima Sinta},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e71db94fd1beed2a6509ecfc5dc37df}{%
+           family={Setyaningrum},
+           familyi={S\bibinitperiod},
+           given={Dewi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0e8d219d6c25e7994ef632befba47c8c}
+      \strng{fullhash}{9a93fc96ea2227c72721ad720cf0490b}
+      \strng{fullhashraw}{9a93fc96ea2227c72721ad720cf0490b}
+      \strng{bibnamehash}{9a93fc96ea2227c72721ad720cf0490b}
+      \strng{authorbibnamehash}{9a93fc96ea2227c72721ad720cf0490b}
+      \strng{authornamehash}{0e8d219d6c25e7994ef632befba47c8c}
+      \strng{authorfullhash}{9a93fc96ea2227c72721ad720cf0490b}
+      \strng{authorfullhashraw}{9a93fc96ea2227c72721ad720cf0490b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{The development of information technology has driven digital transformation in various fields, including the higher education sector. One technology that plays a crucial role in this process is cloud computing, which offers elastic, flexible, and efficient computing services over the internet. This study uses a qualitative descriptive method to describe and analyze the implementation of cloud computing technology in higher education institutions based on a literature review from various relevant sources. The study focuses on the benefits gained, challenges faced, and possible implementation strategies. The analysis shows that cloud computing technology can improve operational efficiency, expand access to data and academic services, and strengthen collaboration among academics. However, several obstacles need to be anticipated, particularly those related to data security, network infrastructure reliability, and human resource readiness. These findings are expected to serve as a reference for higher education institutions in planning effective and sustainable cloud computing implementation.}
+      \field{langid}{indonesian}
+      \field{number}{3}
+      \field{title}{Implementasi Teknologi Cloud Computing Di Perguruan Tinggi}
+      \field{volume}{2}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\3JZYYFA6\Bahono et al. - 2025 - Implementasi Teknologi Cloud Computing Di Perguruan Tinggi.pdf
+      \endverb
+    \endentry
+    \entry{battLearningTableauData2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6c31cecc50ddef403bf18c2d63fcb522}{%
+           family={Batt},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7913e73c183ef9d6943ba9456ac031ef}{%
+           family={Grealis},
+           familyi={G\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=848f4a5b590364850cafbd21436dc587}{%
+           family={Harmon},
+           familyi={H\bibinitperiod},
+           given={Oskar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e040662faf2881adc958d31f87be6c}{%
+           family={Tomolonis},
+           familyi={T\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{416c3f4d947feb123676aaf5a74eadd8}
+      \strng{fullhash}{7b7a5953453bb56a5780c3f14f911973}
+      \strng{fullhashraw}{7b7a5953453bb56a5780c3f14f911973}
+      \strng{bibnamehash}{7b7a5953453bb56a5780c3f14f911973}
+      \strng{authorbibnamehash}{7b7a5953453bb56a5780c3f14f911973}
+      \strng{authornamehash}{416c3f4d947feb123676aaf5a74eadd8}
+      \strng{authorfullhash}{7b7a5953453bb56a5780c3f14f911973}
+      \strng{authorfullhashraw}{7b7a5953453bb56a5780c3f14f911973}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Doing economics” is an important theme of undergraduate economics programs. Capstone courses increasingly include instruction in “data literacy” and the STEM-related skills of quantitative and empirical methods. Because the professional discipline has moved in this direction and because of greater employer demand for these skills, data visualization is a key component of data literacy. Tableau is a free data visualization software widely used in the data analytics industry. In this article, the authors introduce an exercise that teaches the fundamental Tableau concepts and commands needed to create charts, assemble them in a dashboard, and tell a story of patterns observed in the data. The exercise assumes no prior experience in Tableau and is appropriate for undergraduate upper-level economics courses or an empirical methods course.}
+      \field{issn}{0022-0485, 2152-4068}
+      \field{journaltitle}{The Journal of Economic Education}
+      \field{langid}{english}
+      \field{number}{3--4}
+      \field{shortjournal}{The Journal of Economic Education}
+      \field{shorttitle}{Learning {{Tableau}}}
+      \field{title}{Learning {{Tableau}}: {{A}} Data Visualization Tool}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{51}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{317\bibrangedash 328}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1080/00220485.2020.1804503
+      \endverb
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\PW2GIILA\Batt et al. - 2020 - Learning Tableau A data visualization tool.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00220485.2020.1804503
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00220485.2020.1804503
+      \endverb
+    \endentry
+    \entry{goncalvesDevelopingIntegratedPerformance2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=187dc7acd0763a5478614bc0237edcc5}{%
+           family={Gonçalves},
+           familyi={G\bibinitperiod},
+           given={Célia\bibnamedelima Talma},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceb54a4419d847724ba15975ae74f835}{%
+           family={Gonçalves},
+           familyi={G\bibinitperiod},
+           given={Maria\bibnamedelimb José\bibnamedelima Angélico},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6ff73233bc49e1e03ad3287cecf8fee}{%
+           family={Campante},
+           familyi={C\bibinitperiod},
+           given={Maria\bibnamedelima Inês},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57d9984aaf9e04bece601d0a506e5532}
+      \strng{fullhash}{57d9984aaf9e04bece601d0a506e5532}
+      \strng{fullhashraw}{57d9984aaf9e04bece601d0a506e5532}
+      \strng{bibnamehash}{57d9984aaf9e04bece601d0a506e5532}
+      \strng{authorbibnamehash}{57d9984aaf9e04bece601d0a506e5532}
+      \strng{authornamehash}{57d9984aaf9e04bece601d0a506e5532}
+      \strng{authorfullhash}{57d9984aaf9e04bece601d0a506e5532}
+      \strng{authorfullhashraw}{57d9984aaf9e04bece601d0a506e5532}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{The rapid advance of business technologies in recent years has made knowledge an essential and strategic asset that determines the success or failure of an organisation. Access to the right information in real time and with high selectivity can be a competitive advantage in the business environment. Business intelligence systems help corporate executives, business managers, and other operational workers make better and more informed business decisions. This study aimed to assess the impact of using business intelligence tools on the decision-making process in organisations, specifically in sales marketing. The methodology applied to realise the study’s objective was the Vercellis methodology. A set of data available on the sales marketing website SuperDataScience was used to implement a set of pressing KPIs for the business decision-making process in the area. Using these data, a complete business intelligence system solution was implemented. A data warehouse was created using the ETL (extract–transform–load) process, and the data were then explored using a set of dynamics dashboards with a view of the business metrics. The results showed the use of business intelligence systems that allow the integration and transformation of data from various sources stored in data warehouses, where it is possible to implement KPIs and carry out quick, concise, easy-to-interpret graphical analyses. This paper contributes to a better understanding of the importance of data-integrated dashboard visualisation for the decision-making process.}
+      \field{issn}{2078-2489}
+      \field{journaltitle}{Information}
+      \field{langid}{english}
+      \field{number}{11}
+      \field{shortjournal}{Information}
+      \field{title}{Developing {{Integrated Performance Dashboards Visualisations Using Power BI}} as a {{Platform}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{614}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/info14110614
+      \endverb
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\58MMUVLV\Gonçalves et al. - 2023 - Developing Integrated Performance Dashboards Visualisations Using Power BI as a Platform.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2078-2489/14/11/614
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2078-2489/14/11/614
+      \endverb
+    \endentry
+    \entry{hariyantiMODELPENGEMBANGANDASHBOARD2011a}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d16e9503e47f65fbfc56fd0a08f63792}{%
+           family={Hariyanti},
+           familyi={H\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de11a24c9f86581627cad75facc44cb8}{%
+           family={Werdiningsih},
+           familyi={W\bibinitperiod},
+           given={Indah},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52a290ed84452be1977edd8416cd6ed7}{%
+           family={Surendro},
+           familyi={S\bibinitperiod},
+           given={Kridanto},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{503ca9565ea7983c47bc9c64a8a6030a}
+      \strng{fullhash}{503ca9565ea7983c47bc9c64a8a6030a}
+      \strng{fullhashraw}{503ca9565ea7983c47bc9c64a8a6030a}
+      \strng{bibnamehash}{503ca9565ea7983c47bc9c64a8a6030a}
+      \strng{authorbibnamehash}{503ca9565ea7983c47bc9c64a8a6030a}
+      \strng{authornamehash}{503ca9565ea7983c47bc9c64a8a6030a}
+      \strng{authorfullhash}{503ca9565ea7983c47bc9c64a8a6030a}
+      \strng{authorfullhashraw}{503ca9565ea7983c47bc9c64a8a6030a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Tujuan utama dari penelitian ini adalah merancang model pengembangan dashboard untuk kebutuhan perguruan tinggi. Dashboard adalah aplikasi sistem informasi yang menyajikan informasi mengenai indikator utama dari aktifitas organisasi secara sekilas dalam layar tunggal. Pembuatan model memperhatikan 3(tiga) aspek utama dashboard yaitu penyajian data/informasi, personalisasi, dan kolaborasi antar pengguna. Model yang dihasilkan digunakan untuk pengembangan dashboard bagi kebutuhan monitoring dan evaluasi kinerja perguruan tinggi. Monitoring dan evaluasi kinerja mutlak dilakukan secara terus menerus oleh perguruan tinggi untuk memastikan bahwa proses bisnis yang dijalankannya dapat mencapai tujuan yang telah ditetapkan, melalui strategi pengelolaan yang tepat. Metode penelitian yang digunakan adalah studi literatur dan survei kuesioner. Studi literatur dilakukan untuk membuat rancangan awal model. Sedangkan survei kuesioner dilakukan untuk mengidentifikasi kebutuhan calon pengguna dashboard dan mengetahui faktor-faktor yang yang mempengaruhi kesuksesan pengembangan sistem informasi di perguruan tinggi. Jumlah responden sebanyak 95 orang di lingkungan Universitas Airlangga (UA) dan Institut Teknologi Bandung (ITB). Hasil penelitian menunjukkan bahwa terdapat perbedaan prioritas kebutuhan dashboard untuk pengguna di UA dan ITB. Namun secara umum dapat dinyatakan bahwa kebutuhan yang terkait aspek penyajian data/informasi, personalisai, dan performansi merupakan hal yang dianggap penting untuk sebuah dashboard. Sedangkan aspek kolaborasi hanya dianggap sebagai daya tarik dashboard. Model pengembangan dashboard yang dihasilkan menggambarkan bahwa kepuasan pengguna dipengaruhi oleh kualitas sistem, kualitas layanan, dan manfaat positif yang diberikan oleh sistem.}
+      \field{issn}{2406-8535, 1412-6389}
+      \field{journaltitle}{JUTI: Jurnal Ilmiah Teknologi Informasi}
+      \field{shortjournal}{JUTI}
+      \field{title}{{{MODEL PENGEMBANGAN DASHBOARD UNTUK MONITORING DAN EVALUASI KINERJA PERGURUAN TINGGI}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{13\bibrangedash 20}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.12962/j24068535.v9i1.a63
+      \endverb
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\JBD5SYZB\Hariyanti et al. - 2011 - MODEL PENGEMBANGAN DASHBOARD UNTUK MONITORING DAN EVALUASI KINERJA PERGURUAN TINGGI.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://juti.if.its.ac.id/index.php/juti/article/view/63
+      \endverb
+      \verb{url}
+      \verb http://juti.if.its.ac.id/index.php/juti/article/view/63
+      \endverb
+    \endentry
+    \entry{hazelkornRankingsReshapingHigher2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bbc2dfb8336cc9fa2cb862ddcead6ccf}{%
+           family={Hazelkorn},
+           familyi={H\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Houndsmill New York}%
+      }
+      \list{publisher}{1}{%
+        {Palgrave Macmillan}%
+      }
+      \strng{namehash}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \strng{fullhash}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \strng{fullhashraw}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \strng{bibnamehash}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \strng{authorbibnamehash}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \strng{authornamehash}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \strng{authorfullhash}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \strng{authorfullhashraw}{bbc2dfb8336cc9fa2cb862ddcead6ccf}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2. ed}
+      \field{isbn}{978-1-137-44666-4 978-1-137-44667-1}
+      \field{langid}{english}
+      \field{pagetotal}{1}
+      \field{shorttitle}{Rankings and the Reshaping of Higher Education}
+      \field{title}{Rankings and the Reshaping of Higher Education: The Battle for World-Class Excellence}
+      \field{year}{2015}
+      \field{dateera}{ce}
+    \endentry
+    \entry{hazelkornRankingsInstitutionalStrategies2014}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bbc2dfb8336cc9fa2cb862ddcead6ccf}{%
+           family={Hazelkorn},
+           familyi={H\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18f74eea6a1ea18ad5e39310a426451b}{%
+           family={Loukkola},
+           familyi={L\bibinitperiod},
+           given={Tia},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c47847839d60f053b7a5df235d8c76f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Thérèse},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Brussels, Belgium}%
+      }
+      \list{publisher}{1}{%
+        {European University Association}%
+      }
+      \strng{namehash}{6359af68a6e894d2e96f6217b88540ee}
+      \strng{fullhash}{6359af68a6e894d2e96f6217b88540ee}
+      \strng{fullhashraw}{6359af68a6e894d2e96f6217b88540ee}
+      \strng{bibnamehash}{6359af68a6e894d2e96f6217b88540ee}
+      \strng{authorbibnamehash}{6359af68a6e894d2e96f6217b88540ee}
+      \strng{authornamehash}{6359af68a6e894d2e96f6217b88540ee}
+      \strng{authorfullhash}{6359af68a6e894d2e96f6217b88540ee}
+      \strng{authorfullhashraw}{6359af68a6e894d2e96f6217b88540ee}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{annotation}{OCLC: 897139604}
+      \field{langid}{english}
+      \field{shorttitle}{Rankings in Institutional Strategies and Processes}
+      \field{title}{Rankings in Institutional Strategies and Processes: Impact or Illusion?}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{instituteforhighereducationpolicyImpactCollegeRankings2009}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69aceb3d35f7824ce527d88ca245fcd7}{%
+           family={Higher\bibnamedelimb Education\bibnamedelima Policy},
+           familyi={H\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Institute},
+           giveni={I\bibinitperiod},
+           givenun=0,
+           prefix={for},
+           prefixi={f\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{69aceb3d35f7824ce527d88ca245fcd7}
+      \strng{fullhash}{69aceb3d35f7824ce527d88ca245fcd7}
+      \strng{fullhashraw}{69aceb3d35f7824ce527d88ca245fcd7}
+      \strng{bibnamehash}{69aceb3d35f7824ce527d88ca245fcd7}
+      \strng{authorbibnamehash}{69aceb3d35f7824ce527d88ca245fcd7}
+      \strng{authornamehash}{69aceb3d35f7824ce527d88ca245fcd7}
+      \strng{authorfullhash}{69aceb3d35f7824ce527d88ca245fcd7}
+      \strng{authorfullhashraw}{69aceb3d35f7824ce527d88ca245fcd7}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Impact of {{College Rankings}} on {{Institutional Decision Making}}: {{Four Country Case Studies}}}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ihep.org/publication/impact-of-college-rankings-on-institutional-decision-making-four-country-case-studies/
+      \endverb
+      \verb{url}
+      \verb https://www.ihep.org/publication/impact-of-college-rankings-on-institutional-decision-making-four-country-case-studies/
+      \endverb
+    \endentry
+    \entry{iskandarIMPLEMENTASIBUSSINESINTELEGENT2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=86eb2c8cac0b3d32e60d8d51fb6a3791}{%
+           family={Iskandar},
+           familyi={I\bibinitperiod},
+           given={Iskandar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06d61926d4aa2059b186b52fc75635c1}{%
+           family={Maulidiawati},
+           familyi={M\bibinitperiod},
+           given={Chyntia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72f1dd6dafee7b6236f6d8280aa4d49e}{%
+           family={Zuliyanto},
+           familyi={Z\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=284493271d6b8291ada12ee907d1cb31}{%
+           family={Arifin},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4b9b9a24166950a24ebfbf63bd011fb4}
+      \strng{fullhash}{f0b0798a26997985acac5bb7a630f6d5}
+      \strng{fullhashraw}{f0b0798a26997985acac5bb7a630f6d5}
+      \strng{bibnamehash}{f0b0798a26997985acac5bb7a630f6d5}
+      \strng{authorbibnamehash}{f0b0798a26997985acac5bb7a630f6d5}
+      \strng{authornamehash}{4b9b9a24166950a24ebfbf63bd011fb4}
+      \strng{authorfullhash}{f0b0798a26997985acac5bb7a630f6d5}
+      \strng{authorfullhashraw}{f0b0798a26997985acac5bb7a630f6d5}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Perkembangan teknologi informasi mendorong perlunya pengelolaan data yang lebih efektif, terutama dalam mendukung pengambilan keputusan berbasis data. Business Intelligence (BI) hadir sebagai solusi strategis dengan mengintegrasikan berbagai sumber data ke dalam satu platform yang mudah dipahami. Salah satu alat yang digunakan dalam implementasi BI adalah Google Data Studio (Looker Studio). Penelitian ini bertujuan untuk mengimplementasikan Google Data Studio dalam pengelolaan data agar menghasilkan visualisasi yang interaktif, informatif, dan mudah dipahami. Proses implementasi mencakup pengumpulan data, pengolahan, serta penyajian data dalam bentuk grafik, tabel, dan diagram yang memungkinkan identifikasi tren, pola, dan performa secara efektif. Hasil dari penelitian ini menunjukkan bahwa Google Data Studio mampu meningkatkan efisiensi pengolahan data, mempermudah interpretasi informasi, serta mendukung pengambilan keputusan yang lebih akurat. Selain itu, kolaborasi real-time yang didukung oleh platform ini memungkinkan pengguna dari berbagai tim untuk bekerja secara bersamaan, meningkatkan produktivitas dan efisiensi operasional. Dengan fitur-fitur unggulannya, Google Data Studio terbukti sebagai alat visualisasi data yang efektif untuk kebutuhan analisis data skala kecil hingga menengah. Pengujian menunjukkan bahwa implementasi Google Data Studio menghasilkan visualisasi yang mempermudah identifikasi tren dengan akurasi 90\%, mendukung pengambilan keputusan yang lebih cepat hingga 25\%.}
+      \field{issn}{2598-828X}
+      \field{journaltitle}{JATI (Jurnal Mahasiswa Teknik Informatika)}
+      \field{number}{1}
+      \field{shortjournal}{jati}
+      \field{title}{{{IMPLEMENTASI BUSSINES INTELEGENT MENGGUNAKAN SOFTWARE GOOGLE DATA STUDIO}} ({{LOOKER STUDIO}})}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{9}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1417\bibrangedash 1422}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.36040/jati.v9i1.12585
+      \endverb
+      \verb{urlraw}
+      \verb https://ejournal.itn.ac.id/index.php/jati/article/view/12585
+      \endverb
+      \verb{url}
+      \verb https://ejournal.itn.ac.id/index.php/jati/article/view/12585
+      \endverb
+    \endentry
+    \entry{juliaAnalisisKinerjaBasis2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2344521e389d6897ae7af9abf16e7ccc}{%
+           family={{Julia}},
+           familyi={J\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f0d25b76b32c7b674f4c466c1431c491}{%
+           family={Mutahari},
+           familyi={M\bibinitperiod},
+           given={M\bibnamedelima Irgi},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be674259cd18e208fd801768458bf6d8}{%
+           family={{Renaldi}},
+           familyi={R\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=53bfd9827a14f19dfd95ab700b29c21f}{%
+           family={{Saepullah}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e518cc8a496c45283c51d95b70b130c}
+      \strng{fullhash}{0d8515088f10a3dcae2c0f1c6abb9df0}
+      \strng{fullhashraw}{0d8515088f10a3dcae2c0f1c6abb9df0}
+      \strng{bibnamehash}{0d8515088f10a3dcae2c0f1c6abb9df0}
+      \strng{authorbibnamehash}{0d8515088f10a3dcae2c0f1c6abb9df0}
+      \strng{authornamehash}{4e518cc8a496c45283c51d95b70b130c}
+      \strng{authorfullhash}{0d8515088f10a3dcae2c0f1c6abb9df0}
+      \strng{authorfullhashraw}{0d8515088f10a3dcae2c0f1c6abb9df0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Penelitian ini mendalami integrasi basis data terdistribusi dalam lingkungan Cloud Computing dengan fokus pada analisis kinerja. Cloud Computing telah menjadi pendorong utama transformasi digital, dan penggunaan basis data terdistribusi semakin meluas untuk memenuhi tuntutan penyimpanan dan akses data yang efisien. Dalam analisis ini, kami mengeksplorasi dampak skalabilitas yang dinamis, kinerja, dan keamanan data dalam konteks implementasi Cloud Computing. Hasil analisis menunjukkan bahwa integrasi ini memberikan responsibilitas terhadap perubahan beban kerja dengan fleksibilitas yang optimal, meskipun latensi dalam akses data tetap menjadi perhatian utama. Keamanan data dijaga melalui lapisan keamanan Cloud Computing, sementara manajemen otomatis memberikan efisiensi operasional yang signifikan. Penelitian ini juga membuka pintu untuk potensi inovasi lebih lanjut, termasuk penerapan teknologi terkini seperti kontainerisasi. Kesimpulan dari analisis ini memberikan panduan berharga bagi pengembang dan administrator untuk merancang dan mengelola infrastruktur data yang responsif dan efisien, sejalan dengan perkembangan teknologi Cloud Computing yang terus berkembang. Integrasi antara basis data terdistribusi dan Cloud Computing menjanjikan manfaat yang substansial dalam mendukung kebutuhan organisasi dalam menghadapi tantangan dinamis di era digital saat ini.}
+      \field{issn}{2963-590X}
+      \field{journaltitle}{Karimah Tauhid}
+      \field{langid}{indonesian}
+      \field{number}{2}
+      \field{shortjournal}{karimahtauhid}
+      \field{title}{Analisis Kinerja Basis Data Terdistribusi dalam Linkungan Cloud Computing}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1771\bibrangedash 1782}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.30997/karimahtauhid.v3i2.11907
+      \endverb
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\H3QU6K66\Julia et al. - 2024 - Analisis Kinerja Basis Data Terdistribusi dalam Linkungan Cloud Computing.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ojs.unida.ac.id/karimahtauhid/article/view/11907
+      \endverb
+      \verb{url}
+      \verb https://ojs.unida.ac.id/karimahtauhid/article/view/11907
+      \endverb
+    \endentry
+    \entry{malikEnterpriseDashboardsDesign2005}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5171a40959984b32b6b269cf830c5d61}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Shadan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{5171a40959984b32b6b269cf830c5d61}
+      \strng{fullhash}{5171a40959984b32b6b269cf830c5d61}
+      \strng{fullhashraw}{5171a40959984b32b6b269cf830c5d61}
+      \strng{bibnamehash}{5171a40959984b32b6b269cf830c5d61}
+      \strng{authorbibnamehash}{5171a40959984b32b6b269cf830c5d61}
+      \strng{authornamehash}{5171a40959984b32b6b269cf830c5d61}
+      \strng{authorfullhash}{5171a40959984b32b6b269cf830c5d61}
+      \strng{authorfullhashraw}{5171a40959984b32b6b269cf830c5d61}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-471-73806-0}
+      \field{langid}{english}
+      \field{pagetotal}{222}
+      \field{shorttitle}{Enterprise Dashboards}
+      \field{title}{Enterprise Dashboards: Design and Best Practices for {{IT}}}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\DCBKP6WT\Malik - 2005 - Enterprise dashboards design and best practices for IT.pdf
+      \endverb
+    \endentry
+    \entry{marinescuCloudComputingTheory2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8d74f51fb076d6294f7f82c36c493ba}{%
+           family={Marinescu},
+           familyi={M\bibinitperiod},
+           given={Dan\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann publishers}%
+      }
+      \strng{namehash}{a8d74f51fb076d6294f7f82c36c493ba}
+      \strng{fullhash}{a8d74f51fb076d6294f7f82c36c493ba}
+      \strng{fullhashraw}{a8d74f51fb076d6294f7f82c36c493ba}
+      \strng{bibnamehash}{a8d74f51fb076d6294f7f82c36c493ba}
+      \strng{authorbibnamehash}{a8d74f51fb076d6294f7f82c36c493ba}
+      \strng{authornamehash}{a8d74f51fb076d6294f7f82c36c493ba}
+      \strng{authorfullhash}{a8d74f51fb076d6294f7f82c36c493ba}
+      \strng{authorfullhashraw}{a8d74f51fb076d6294f7f82c36c493ba}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"Cloud Computing: Theory and Practice, Third Edition provides students and IT professionals with an in-depth analysis of the cloud from the ground up. After an introduction to network-centric computing and network-centric content, the book reviews basic concepts of concurrency and parallel and distributed systems, presents critical components of the cloud ecosystem as cloud service providers, cloud access, cloud data storage, and cloud hardware and software, covers cloud applications and cloud security, and presents research topics in cloud computing. Specific topics covered include resource virtualization, resource management and scheduling, and advanced topics like the impact of scale on efficiency, cloud scheduling subject to deadlines, alternative cloud architectures, and vehicular clouds. An included glossary covers terms grouped in several categories, from general to services, virtualization, desirable attributes and security."}
+      \field{isbn}{978-0-323-85277-7}
+      \field{langid}{english}
+      \field{shorttitle}{Cloud Computing}
+      \field{title}{Cloud Computing: Theory and Practice}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mellNISTDefinitionCloud2011}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eac098e5805fbc204d757a7083c69ac6}{%
+           family={Mell},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f32f3f75de51838401f618755c8a6620}{%
+           family={Grance},
+           familyi={G\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{fullhash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{fullhashraw}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{bibnamehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{authorbibnamehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{authornamehash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{authorfullhash}{d1f558bbc290d0967925307c14bc2d83}
+      \strng{authorfullhashraw}{d1f558bbc290d0967925307c14bc2d83}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{langid}{english}
+      \field{title}{The {{NIST Definition}} of {{Cloud Computing}}}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\PZBYWPXA\Mell and Grance - The NIST Definition of Cloud Computing.pdf
+      \endverb
+    \endentry
+    \entry{mitchellDevelopingUsingDashboard2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0d66eeeca196fe341e6641884acd4344}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Joshua\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c367f37f5afed69c7e4839e55dff6921}{%
+           family={Ryder},
+           familyi={R\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cac1bd53ff5fd568792fd87300ae5072}
+      \strng{fullhash}{cac1bd53ff5fd568792fd87300ae5072}
+      \strng{fullhashraw}{cac1bd53ff5fd568792fd87300ae5072}
+      \strng{bibnamehash}{cac1bd53ff5fd568792fd87300ae5072}
+      \strng{authorbibnamehash}{cac1bd53ff5fd568792fd87300ae5072}
+      \strng{authornamehash}{cac1bd53ff5fd568792fd87300ae5072}
+      \strng{authorfullhash}{cac1bd53ff5fd568792fd87300ae5072}
+      \strng{authorfullhashraw}{cac1bd53ff5fd568792fd87300ae5072}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Abstract Dashboard systems are increasingly popular as assessment and performance management tools in higher education. This chapter examines the use of dashboards in student affairs, including examples of key indicators and considerations for developing and implementing these tools.}
+      \field{issn}{0164-7970, 1536-0695}
+      \field{journaltitle}{New Directions for Student Services}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{142}
+      \field{shortjournal}{New Drctns for Student Srvcs}
+      \field{title}{Developing and {{Using Dashboard Indicators}} in {{Student Affairs Assessment}}}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{2013}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{71\bibrangedash 81}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/ss.20050
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/ss.20050
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/ss.20050
+      \endverb
+    \endentry
+    \entry{nguyenInfluenceGlobalUniversity2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a289f00bc8749c100ce7cdcc2d4cb5cf}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Khuong\bibnamedelima Vinh},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ff48bcfb79cdb46fdea724c016e45ef}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Tuan\bibnamedelima Anh},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbd089560061581cc0c980483e4e18fb}{%
+           family={Nguyen-Duong},
+           familyi={N\bibinithyphendelim D\bibinitperiod},
+           given={Bao-Tran},
+           giveni={B\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3055a15fa71336837e7c90f95019b4f}{%
+           family={Huynh},
+           familyi={H\bibinitperiod},
+           given={Son\bibnamedelima Van},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{059ee4784251a04345e69e6686f10d2c}
+      \strng{fullhash}{a7baa1f7ca59ba0103dec357b7c13be8}
+      \strng{fullhashraw}{a7baa1f7ca59ba0103dec357b7c13be8}
+      \strng{bibnamehash}{a7baa1f7ca59ba0103dec357b7c13be8}
+      \strng{authorbibnamehash}{a7baa1f7ca59ba0103dec357b7c13be8}
+      \strng{authornamehash}{059ee4784251a04345e69e6686f10d2c}
+      \strng{authorfullhash}{a7baa1f7ca59ba0103dec357b7c13be8}
+      \strng{authorfullhashraw}{a7baa1f7ca59ba0103dec357b7c13be8}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{University rankings serve as crucial tools for evaluating and comparing the quality of higher education institutions worldwide. This study examines the impact of global university rankings on the strategic choices made by higher education institutions, with a focus on developing countries such as Vietnam. This study investigates rankings, including QS, Times Higher Education (THE), and Webometrics, and analyzes their emphasis on research output, internationalization, and reputation, frequently at the expense of teaching quality and community engagement. The reviewed literature comprises peer-reviewed articles and studies published from 2010--2023, emphasizing Vietnamese universities such as Ho Chi Minh City University of Education, which encounter difficulties in reconciling global competitiveness with local educational objectives. The findings demonstrate that global rankings tend to favor universities with robust research infrastructures and extensive international networks, resulting in disparities between well-funded institutions and those with limited resources. While emerging trends such as contributions to the United Nations Sustainable Development Goals (SDGs) are becoming more prominent, research metrics continue to be the primary determinants. The study concludes that existing ranking systems fail to adequately represent the broader objectives of universities in developing countries, especially those emphasizing local impact.}
+      \field{issn}{2595-3982, 2595-3982}
+      \field{journaltitle}{Multidisciplinary Reviews}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{shortjournal}{Multidiscip. Rev.}
+      \field{title}{Influence of Global University Rankings on Strategic Decisions at {{Ho Chi Minh City}} University of Education in Balancing Global Competitiveness and Local Educational Goals}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2025124}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.31893/multirev.2025124
+      \endverb
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\AM29FMXE\Nguyen et al. - 2024 - Influence of global university rankings on strategic decisions at Ho Chi Minh City university of edu.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://malque.pub/ojs/index.php/mr/article/view/6860
+      \endverb
+      \verb{url}
+      \verb https://malque.pub/ojs/index.php/mr/article/view/6860
+      \endverb
+    \endentry
+    \entry{noahiliinskyDesigningDataVisualizations2011}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ed9fd18ad09a38a6d0f2c9274add3808}{%
+           family={{Noah Iliinsky}},
+           familyi={N\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f0ec96d5e8a76634f63b1a63b7c28f60}{%
+           family={{Julie Steele}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc}%
+      }
+      \strng{namehash}{df57602b30609b3c2a4165367f291928}
+      \strng{fullhash}{df57602b30609b3c2a4165367f291928}
+      \strng{fullhashraw}{df57602b30609b3c2a4165367f291928}
+      \strng{bibnamehash}{df57602b30609b3c2a4165367f291928}
+      \strng{authorbibnamehash}{df57602b30609b3c2a4165367f291928}
+      \strng{authornamehash}{df57602b30609b3c2a4165367f291928}
+      \strng{authorfullhash}{df57602b30609b3c2a4165367f291928}
+      \strng{authorfullhashraw}{df57602b30609b3c2a4165367f291928}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: 1302278243}
+      \field{isbn}{978-1-306-81333-4}
+      \field{langid}{und}
+      \field{title}{Designing Data Visualizations}
+      \field{year}{2011}
+      \field{dateera}{ce}
+    \endentry
+    \entry{prasetiyaVisualisasiInformasiData2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=20836e65e09a8391231e74b162f38955}{%
+           family={Prasetiya},
+           familyi={P\bibinitperiod},
+           given={Hendro\bibnamedelima Poerbo},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b716bacf1cb6c850623dbc32565a7fad}{%
+           family={Susilowati},
+           familyi={S\bibinitperiod},
+           given={Meme},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09f30b8e664726d8eb357a6902e1f744}
+      \strng{fullhash}{09f30b8e664726d8eb357a6902e1f744}
+      \strng{fullhashraw}{09f30b8e664726d8eb357a6902e1f744}
+      \strng{bibnamehash}{09f30b8e664726d8eb357a6902e1f744}
+      \strng{authorbibnamehash}{09f30b8e664726d8eb357a6902e1f744}
+      \strng{authornamehash}{09f30b8e664726d8eb357a6902e1f744}
+      \strng{authorfullhash}{09f30b8e664726d8eb357a6902e1f744}
+      \strng{authorfullhashraw}{09f30b8e664726d8eb357a6902e1f744}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{University leaders have the responsibility to monitor all activities and make continuous measurements on the performance and quality of higher education which leads to ensure the achievement of the goals set. All this to get some of the information required, University leaders still have to do the data collection scattered information systems, either manually. It can slow down the decision making process for people who are at the manager level and above so they can∂W monitor the performance and quality of higher Education any time.}
+      \field{issn}{2443-2229, 2443-2210}
+      \field{journaltitle}{Jurnal Teknik Informatika dan Sistem Informasi}
+      \field{langid}{indonesian}
+      \field{number}{3}
+      \field{shortjournal}{JuTISI}
+      \field{title}{Visualisasi Informasi Data Perguruan Tinggi Dengan Data Warehouse Dan Dashboard System}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.28932/jutisi.v2i3.504
+      \endverb
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\TKWBDDLN\Prasetiya and Susilowati - 2016 - Visualisasi Informasi Data Perguruan Tinggi Dengan Data Warehouse Dan Dashboard System.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://jutisi.maranatha.edu/index.php/jutisi/article/view/504
+      \endverb
+      \verb{url}
+      \verb http://jutisi.maranatha.edu/index.php/jutisi/article/view/504
+      \endverb
+    \endentry
+    \entry{putraPelatihanPowerBI2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=deb34ffd5791bdf7bb602633c1d659ff}{%
+           family={Putra},
+           familyi={P\bibinitperiod},
+           given={I\bibnamedelima Dewa\bibnamedelimb Putu\bibnamedelimb Gede\bibnamedelima Wiyata},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebc17fe44a1900f9ee7472f4446ca8df}{%
+           family={Nirwana},
+           familyi={N\bibinitperiod},
+           given={Ni\bibnamedelima Kadek\bibnamedelima Ayu},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bca5342162d43d228e1cb9b1297c0ba}{%
+           family={Aristana},
+           familyi={A\bibinitperiod},
+           given={I\bibnamedelima Dewa\bibnamedelima Gede},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=168acc51e65019c0be36225d2f720471}{%
+           family={Prayana},
+           familyi={P\bibinitperiod},
+           given={I\bibnamedelima Kadek\bibnamedelimb Wira\bibnamedelima Dharma},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d70d34314812ca252993ac83050f764}{%
+           family={Pratiwi},
+           familyi={P\bibinitperiod},
+           given={Ni\bibnamedelima Wayan\bibnamedelimb Anggita\bibnamedelima Dara},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24314513aa30fde3b1896b97b52d061c}{%
+           family={Desmayani},
+           familyi={D\bibinitperiod},
+           given={Ni\bibnamedelima Made\bibnamedelimb Mila\bibnamedelima Rosa},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9636b540531d30366a117332e0b7de9c}
+      \strng{fullhash}{13bf23af71ba9f619a0bade3f01128b0}
+      \strng{fullhashraw}{13bf23af71ba9f619a0bade3f01128b0}
+      \strng{bibnamehash}{13bf23af71ba9f619a0bade3f01128b0}
+      \strng{authorbibnamehash}{13bf23af71ba9f619a0bade3f01128b0}
+      \strng{authornamehash}{9636b540531d30366a117332e0b7de9c}
+      \strng{authorfullhash}{13bf23af71ba9f619a0bade3f01128b0}
+      \strng{authorfullhashraw}{13bf23af71ba9f619a0bade3f01128b0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Power BI merupakan alat analisis data yang populer dan powerful di era digital saat ini. Dengan kemampuannya untuk mengumpulkan, mengolah, menganalisis, dan memvisualisasikan data dengan mudah dan cepat, Power BI membantu pengguna dalam mendapatkan insight dan informasi yang berguna untuk pengambilan keputusan bisnis yang lebih efektif. Kerjasama antara institusi pendidikan, INSTIKI, dan perusahaan konsultan, Gama Consulting \& Training, bertujuan untuk meningkatkan pengetahuan dan keterampilan peserta dalam memanfaatkan Power BI untuk analisis data bisnis yang efisien dan pengambilan keputusan yang terinformasi. Pelatihan dilakukan dengan berbagai metode, termasuk penyampaian materi, diskusi, sesi praktek, dan penyebaran kuesioner. Hasilnya menunjukkan kepuasan peserta secara keseluruhan, dengan umpan balik positif terhadap materi yang disajikan. Studi ini merekomendasikan pelatihan lanjutan dengan fokus pada fitur-fitur yang belum tergali untuk mengoptimalkan potensi Power BI sebagai alat komprehensif dalam meningkatkan kinerja bisnis.}
+      \field{issn}{2774-9940, 2775-0191}
+      \field{journaltitle}{Jurnal Widya Laksmi: Jurnal Pengabdian Kepada Masyarakat}
+      \field{number}{2}
+      \field{shortjournal}{JWL}
+      \field{shorttitle}{Pelatihan {{Power BI}}}
+      \field{title}{Pelatihan {{Power BI}}: {{Meningkatkan Kinerja Bisnis}} Dengan {{Analisis Data}} Dan {{Visualisasi}} Yang {{Optimal}}.}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{77\bibrangedash 80}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.59458/jwl.v3i2.60
+      \endverb
+      \verb{urlraw}
+      \verb https://jurnalwidyalaksmi.com/index.php/jwl/article/view/60
+      \endverb
+      \verb{url}
+      \verb https://jurnalwidyalaksmi.com/index.php/jwl/article/view/60
+      \endverb
+    \endentry
+    \entry{QSWorldUniversity2025}{online}{}{}
+      \list{organization}{1}{%
+        {QS World University Rankings: Methodology}%
+      }
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{{{QS World University Rankings}}: {{Methodology}}}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.topuniversities.com/world-university-rankings/methodology
+      \endverb
+      \verb{url}
+      \verb https://www.topuniversities.com/world-university-rankings/methodology
+      \endverb
+    \endentry
+    \entry{salinasPrimerDataVisualization2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=50b307657523720c31bf7f016b222eaa}{%
+           family={Salinas},
+           familyi={S\bibinitperiod},
+           given={Jorge\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18593a73816798371585d0a1c540e2e4}{%
+           family={Kritzman},
+           familyi={K\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=472d066684ccdb8bdc266327acca2ad0}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Takaaki},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=730d2228c096f5a332aee5528d36fe8c}{%
+           family={Edmond},
+           familyi={E\bibinitperiod},
+           given={Michael\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6514c97d887ba072f669c4f9d03d4c2b}{%
+           family={Ince},
+           familyi={I\bibinitperiod},
+           given={Dilek},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dddcd0c8890b58ceffa048bdd7b256a3}{%
+           family={Diekema},
+           familyi={D\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ea4f547e4289fcbf7094ec318fe18c6}
+      \strng{fullhash}{f436784ea8a07799b6a5d2e3cb3133b5}
+      \strng{fullhashraw}{f436784ea8a07799b6a5d2e3cb3133b5}
+      \strng{bibnamehash}{f436784ea8a07799b6a5d2e3cb3133b5}
+      \strng{authorbibnamehash}{f436784ea8a07799b6a5d2e3cb3133b5}
+      \strng{authornamehash}{1ea4f547e4289fcbf7094ec318fe18c6}
+      \strng{authorfullhash}{f436784ea8a07799b6a5d2e3cb3133b5}
+      \strng{authorfullhashraw}{f436784ea8a07799b6a5d2e3cb3133b5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Abstract Data visualization refers to the techniques used to communicate information by encoding it as visual objects (eg, points, lines, or bars) contained in graphics. The recent acceleration in informatics technology has made it possible to obtain and process large amounts of data. Although data visualization can provide insights from large datasets, it can also help simplify messaging, making information more accessible for healthcare stakeholders. The field of data visualization is constantly evolving, and new techniques are frequently being created. However, evidence regarding the best way to visualize data in the fields of infection prevention and antimicrobial stewardship is limited. We provide an overview of data visualization theory and history, as well as recommendations for creating graphs for infection prevention and antimicrobial stewardship.}
+      \field{issn}{0899-823X, 1559-6834}
+      \field{journaltitle}{Infection Control \& Hospital Epidemiology}
+      \field{langid}{english}
+      \field{number}{8}
+      \field{shortjournal}{Infect. Control Hosp. Epidemiol.}
+      \field{title}{A Primer on Data Visualization in Infection Prevention and Antimicrobial Stewardship}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{41}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{948\bibrangedash 957}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1017/ice.2020.142
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0899823X20001427/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0899823X20001427/type/journal_article
+      \endverb
+    \endentry
+    \entry{satriniaAnalisisKeamananDan2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f3e063c15071463b0eea093e75268351}{%
+           family={Satrinia},
+           familyi={S\bibinitperiod},
+           given={Dwina},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58bf17e9675d88bf8c09563b1988234b}{%
+           family={Yutia},
+           familyi={Y\bibinitperiod},
+           given={Syifa\bibnamedelima Nurgaida},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d219900bfd8e5fac816408271f568d5b}{%
+           family={Matin},
+           familyi={M\bibinitperiod},
+           given={Iik\bibnamedelimb Muhamad\bibnamedelima Malik},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \strng{fullhash}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \strng{fullhashraw}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \strng{bibnamehash}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \strng{authorbibnamehash}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \strng{authornamehash}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \strng{authorfullhash}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \strng{authorfullhashraw}{4316cf14c8622062aae09e8c2fcfe0c0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Cloud computing atau ‘komputasi awan’ menyajikan berbagai kemudahan untuk organisasi maupun individu dalam mengakses data dimanapun dan kapanpun. Cloud computing memiliki kelebihan seperti memberikan berbagai pilihan model layanan, jenis penyimpanan data, serta pengaturan komputasi yang sesuai kebutuhan sehingga memberikan manfaat yang menarik yaitu efisiens, efektif dan hemat biaya. Kelebihan tersebut tidak membuat cloud computing aman dari ancaman serangan keamanan. Konsep keamanan dibutuhkan untuk membantu manajemen pada organisasi maupun individu dalam melindungi dan melakukan pengamanan data pada layanan cloud. Selain itu, model kenyamanan juga diperlukan untuk membantu pengguna dalam menggunakan layanan cloud.}
+      \field{issn}{2686-1089}
+      \field{journaltitle}{Journal of Informatics and Communication Technology (JICT)}
+      \field{langid}{indonesian}
+      \field{number}{1}
+      \field{shortjournal}{j\_ict}
+      \field{title}{Analisis Keamanan dan Kenyamanan pada Cloud Computing}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{85\bibrangedash 91}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.52661/j_ict.v4i1.111
+      \endverb
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\39Y56VAX\Satrinia et al. - 2022 - Analisis Keamanan dan Kenyamanan pada Cloud Computing.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ejournal.akademitelkom.ac.id/j_ict/index.php/j_ict/article/view/111
+      \endverb
+      \verb{url}
+      \verb https://ejournal.akademitelkom.ac.id/j_ict/index.php/j_ict/article/view/111
+      \endverb
+    \endentry
+    \entry{sobriPenerapanMetodeSMART2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c99554910a3091d633517ea52e9da7b4}{%
+           family={Sobri},
+           familyi={S\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c99554910a3091d633517ea52e9da7b4}
+      \strng{fullhash}{c99554910a3091d633517ea52e9da7b4}
+      \strng{fullhashraw}{c99554910a3091d633517ea52e9da7b4}
+      \strng{bibnamehash}{c99554910a3091d633517ea52e9da7b4}
+      \strng{authorbibnamehash}{c99554910a3091d633517ea52e9da7b4}
+      \strng{authornamehash}{c99554910a3091d633517ea52e9da7b4}
+      \strng{authorfullhash}{c99554910a3091d633517ea52e9da7b4}
+      \strng{authorfullhashraw}{c99554910a3091d633517ea52e9da7b4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{In tender activities often occur problems regarding the decisionmaking process. The right solution to these problems is to develop a decision support system based computer. The goal is to help make decisions, and can provide support for the consideration of the winning bidder. The SMART methods in determining the decision with appropriate and able to help speed up the selection process the selection of the services of a consultant or contractor of the project. The results of this research have created a decision support system using the SMART methods to help in the determination of the winner of the tender of the project.}
+      \field{langid}{indonesian}
+      \field{title}{Penerapan Metode SMART Pada Sistem Pendukung Keputusan Pemenang Tender Proyek (Studi Kasus : Dinas Pekerjaan Umum Kota Bengkulu)}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C:\Users\lukky\Zotero\storage\D9JUVP6F\Sobri - 2021 - Penerapan Metode SMART Pada Sistem Pendukung Keputusan Pemenang Tender Proyek (Studi Kasus Dinas P.pdf
+      \endverb
+    \endentry
+    \entry{sulianta2023basic}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bed0a8ee20b6d7c28b4117a324820dc7}{%
+           family={Sulianta},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Feri Sulianta}%
+      }
+      \strng{namehash}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \strng{fullhash}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \strng{fullhashraw}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \strng{bibnamehash}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \strng{authorbibnamehash}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \strng{authornamehash}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \strng{authorfullhash}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \strng{authorfullhashraw}{bed0a8ee20b6d7c28b4117a324820dc7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Basic Data Mining from a to {{Z}}}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.co.id/books?id=JcLhEAAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.co.id/books?id=JcLhEAAAQBAJ
+      \endverb
+    \endentry
+    \entry{velizInfluenceGlobalRankings2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4e3d47c22c0efde480a9d35ff41c6ee8}{%
+           family={Véliz},
+           familyi={V\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=604e6f66c58e91351146a71b58f2aaa5}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Pìo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \strng{fullhash}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \strng{fullhashraw}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \strng{bibnamehash}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \strng{authorbibnamehash}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \strng{authornamehash}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \strng{authorfullhash}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \strng{authorfullhashraw}{d42e4a3dab0cd6cf17399dc3379d4615}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Abstract This paper complements and extends the literature analysing the relationship of global rankings on universities' strategies, missions, structures, and functions. Specifically, it examines the extent to which global rankings have influenced development strategies of one Chilean university through administrator's perception and changes in the strategic planning. Interview and documentary data were collected at two points in time (2014 and 2017), mainly through semi‐structured interviews with 18 university administrators and college deans. Findings suggest a relationship between the university's ranking position and its perception of academic excellence. However, rankings have effects that are not only perceptual. High ranking positions increase global visibility, promote international partnerships and collaborations that benefit academic staff. At the same time, the university finds itself increasingly bound by the current global standards on academic search, appointment, promotion, and evaluation. Findings suggest that universities are rarely passive recipients of the influence of rankings, they seek opportunities to leverage them to their strategic advantage, more when the ranking benefits their visibility. , Abstracta Este artículo complementa y amplía la literatura que analiza la relación de los rankings globales sobre las estrategias, misiones, estructuras y funciones de las universidades. Específicamente, examina hasta qué punto los rankings globales han influido en las estrategias de desarrollo de una universidad chilena a través de la percepción de los administradores y los cambios producidos en la planificación estratégica. Los datos se basan en entrevistas y documentos recopilaron en dos momentos (2014 y 2017). Principalmente a través de entrevistas semiestructuradas con 18 administradores y decanos universitarios. Los hallazgos sugieren una relación entre la posición en el ranking de la universidad y su percepción de excelencia académica. Los hallazgos sugieren que las universidades rara vez son receptoras pasivas de la influencia de las clasificaciones, buscan oportunidades para aprovecharlas en su ventaja estratégica, más cuando la clasificación beneficia su visibilidad.}
+      \field{issn}{0951-5224, 1468-2273}
+      \field{journaltitle}{Higher Education Quarterly}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{shortjournal}{Higher Education Quarterly}
+      \field{shorttitle}{Influence of Global Rankings on Strategic Planning from the Perspective of Decision‐makers}
+      \field{title}{Influence of Global Rankings on Strategic Planning from the Perspective of Decision‐makers: {{A}} Case Study of a {{Chilean}} Research University}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{76}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{638\bibrangedash 652}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/hequ.12333
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/hequ.12333
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/hequ.12333
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

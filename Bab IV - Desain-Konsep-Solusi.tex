@@ -1,0 +1,187 @@
+% ==========================================
+% BAB IV DESAIN KONSEP SOLUSI
+% ==========================================
+\chapter{DESAIN KONSEP SOLUSI}
+\section{Gambaran Umum Sistem}
+Bagian ini menjelaskan gambaran umum sistem yang akan dikembangkan dengan mengikuti tahapan CRISP DM seperti yang telah dijabarkan pada bab \ref{chap:metodologi} Metodologi. Diagram pada \ref{gambar:gambaran-umum-sistem} menunjukkan alur proses yang menghubungkan setiap tahap mulai dari pemahaman tujuan bisnis hingga publikasi \textit{dashboard} ke Power BI Cloud Service. Dengan melihat diagram tersebut, pembaca dapat menelusuri bagaimana setiap komponen sistem berhubungan langsung dengan fase CRISP DM.
+
+Tahap pertama adalah \textit{business understanding}. Pada tahap ini dirumuskan kebutuhan pemantauan dan evaluasi kinerja berdasarkan konteks pemeringkatan QS serta kebutuhan SPM dan pimpinan ITB. Hasilnya berupa tujuan analitik dan pertanyaan kunci yang harus dijawab oleh \textit{dashboard}. Temuan ini kemudian mengarahkan proses ke tahap \textit{data collection} seperti yang tergambar pada blok \textit{Data Collection} di dalam diagram. Pada tahap ini, data capaian dikumpulkan dari SPM ITB dalam format terstruktur seperti CSV atau Excel. Data yang diperoleh belum langsung digunakan. Data tersebut dipelajari terlebih dahulu pada tahap \textit{data understanding}, yaitu proses memeriksa karakteristik data, mengecek kelengkapan dan konsistensi nilai, serta menentukan atribut mana saja yang relevan untuk membangun indikator kinerja.
+
+Temuan dari tahap \textit{data understanding} menjadi dasar untuk masuk ke tahap \textit{data preparation} yang dalam gambar direpresentasikan oleh penggunaan Power Query. Pada tahap ini dilakukan pembersihan dan transformasi data seperti standardisasi format tanggal, penyelarasan nama unit, penggabungan tabel sumber, serta pemilahan kolom agar data siap dipakai pada tahap berikutnya. Data yang telah diproses kemudian masuk ke tahap \textit{modelling} di Power BI. Tahap ini mencakup penyusunan model data, penentuan relasi antar tabel, dan pembuatan \textit{measure} yang digunakan untuk menghasilkan indikator dan visualisasi yang informatif di dashboard.
+
+Tahap terakhir yang ditunjukkan pada bagian akhir diagram adalah \textit{deployment}. Pada tahap ini hasil pemodelan dipublikasikan ke Power BI Cloud Service sehingga dashboard dapat diakses oleh pemangku kepentingan sesuai dengan hak akses yang diberikan.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image/Gambaran Umum Sistem.png}
+    \caption{Gambaran Umum Sistem}
+    \label{gambar:gambaran-umum-sistem}
+\end{figure}
+
+\subsection{\textit{Business Understanding}}
+Bagian ini membahas tahap \textit{business understanding} yang menjadi dasar perancangan \textit{dashboard} kinerja untuk monitoring dan evaluasi QS World University Rankings di ITB. Saat ini perguruan tinggi beroperasi dalam lingkungan global yang sangat dipengaruhi oleh sistem pemeringkatan internasional. Salah satu yang paling menonjol adalah QS WUR yang menilai universitas dari berbagai sisi seperti reputasi akademik, dampak penelitian, rasio dosen dan mahasiswa, sampai tingkat internasionalisasi. Peringkat QS tidak hanya menjadi ukuran reputasi di luar kampus tetapi juga memengaruhi arah kebijakan internal, daya tarik bagi calon mahasiswa dan staf internasional, serta posisi institusi dalam kompetisi pendanaan dan kolaborasi global. Bagi ITB, capaian QS menjadi penanda penting keberhasilan strategi institusi dan berfungsi sebagai salah satu acuan perencanaan jangka panjang. Karena itu dibutuhkan mekanisme pemantauan yang lebih sistematis agar perubahan kinerja dapat terdeteksi lebih cepat dan ditindaklanjuti dengan tepat.
+
+Dalam praktiknya, Satuan Penjaminan Mutu ITB sudah mengumpulkan data capaian berbagai indikator QS dari banyak unit dan sistem. Namun data tersebut belum tersaji dalam bentuk yang benar benar terintegrasi dan mudah diakses oleh pihak yang membutuhkan. Kondisi ini menimbulkan beberapa kendala seperti sulitnya menyatukan data pada tingkat institusi, lambatnya memperoleh gambaran kinerja terbaru, serta terbatasnya kemampuan pengguna untuk mengeksplorasi data sendiri. Akibatnya, pimpinan dan unit terkait tidak selalu memiliki gambaran utuh mengenai posisi ITB pada setiap indikator QS sehingga respons terhadap kekurangan dan peluang perbaikan menjadi kurang cepat dan tidak sepenuhnya berbasis bukti.
+
+Dari permasalahan tersebut, kebutuhan bisnis utama yang ingin dipenuhi lewat tugas akhir ini adalah menghadirkan media visualisasi terpusat yang mampu menampilkan capaian QS secara ringkas, interaktif, dan selalu diperbarui. \textit{Dashboard} yang dikembangkan diharapkan bisa menggabungkan data yang selama ini tersebar, menunjukkan status capaian terhadap target, memperlihatkan tren dari waktu ke waktu, serta memberikan fitur \textit{drill down} hingga tingkat unit atau kelompok indikator. Sistem juga perlu selaras dengan ekosistem teknologi yang sudah digunakan ITB agar pengelolaan akses dan pembaruan data bisa dilakukan dengan lebih efisien. Dengan pemahaman kebutuhan yang jelas di tahap ini, proses selanjutnya dalam CRISP DM dapat diarahkan pada pemilihan data yang relevan, perancangan model, dan pengembangan dashboard yang benar benar mendukung pemantauan kinerja QS di lingkungan ITB.
+
+\subsection{\textit{Data Understanding}}
+Pada tahap \textit{data understanding}, fokus utamanya adalah membangun pemahaman yang jelas mengenai karakteristik data capaian yang dikumpulkan oleh Satuan Penjaminan Mutu ITB serta data pendukung lain yang terkait dengan indikator QS. Sebelum data diolah lebih lanjut pada tahap transformasi dan pemodelan, peneliti perlu mengetahui terlebih dahulu jenis data apa saja yang digunakan dalam penilaian QS World University Rankings dan bagaimana struktur data tersebut berpengaruh terhadap perancangan \textit{dashboard}. Mengacu pada metodologi QS WUR, pemeringkatan disusun berdasarkan beberapa lensa dan indikator utama yang masing masing memiliki bobot tersendiri dalam menentukan skor akhir universitas. Tabel \ref{tbl:qs-indicators} di bawah ini merangkum indikator-indikator tersebut beserta bobot dan sumber data yang digunakan untuk perhitungannya.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ | p{3.5cm} | p{4.5cm} | p{1.5cm} | p{3.5cm} | }
+\hline
+\textbf{Lensa} & \textbf{Indikator} & \textbf{Bobot} & \textbf{Sumber Data} \\
+\hline
+\textit{Research and Discovery} & \textit{Academic Reputation} (AR) & 30\% & Survei akademisi global \\
+\hline
+\textit{Research and Discovery} & \textit{Citations per Faculty} (CpF) & 20\% & Data sitasi Scopus dan jumlah \textit{faculty staff} \\
+\hline
+\textit{Employability and Outcomes} & \textit{Employer Reputation} (ER) & 15\% & Survei pemberi kerja global \\
+\hline
+\textit{Employability and Outcomes} & \textit{Employment Outcomes} (EO) & 5\% & Data ketenagakerjaan lulusan dan alumni \\
+\hline
+\textit{Learning Experience} & \textit{Faculty Student Ratio} (FSR) & 10\% & Jumlah \textit{faculty staff} dan jumlah mahasiswa \\
+\hline
+\textit{Global Engagement} & \textit{International Faculty Ratio} (IFR) & 5\% & Jumlah staf internasional dan total staf \\
+\hline
+\textit{Global Engagement} & \textit{International Student Ratio} (ISR) & 5\% & Jumlah mahasiswa internasional dan total mahasiswa \\
+\hline
+\textit{Global Engagement} & \textit{International Research Network} (IRN) & 5\% & Data publikasi kolaboratif internasional \\
+\hline
+\textit{Sustainability} & \textit{Sustainability} (SUS) & 5\% & Data lingkungan, sosial, dan tata kelola \\
+\hline
+\textbf{Total} & & \textbf{100\%} & \\
+\hline
+\end{tabular}
+\caption{Indikator QS World University Rankings dan Sumber Datanya}
+\label{tbl:qs-indicators}
+\end{table}
+
+\subsubsection{Lensa \textit{Research and Discovery}}
+Lensa pertama dalam metodologi QS adalah \textit{Research and Discovery} dengan bobot total 50 persen. Lensa ini menekankan pentingnya kontribusi penelitian dan prestasi akademik sebuah institusi dalam pemeringkatan global. Di dalamnya terdapat dua indikator utama. Indikator pertama adalah \textit{Academic Reputation} (AR) yang memiliki bobot 30 persen. Nilai AR diperoleh dari survei global kepada para akademisi yang diminta menyebutkan institusi yang mereka anggap unggul dalam bidang keahlian masing masing. Data yang dibutuhkan berupa hasil survei reputasi akademik dan jumlah nominasi yang diberikan kepada institusi oleh responden di seluruh dunia. Indikator ini menggambarkan bagaimana komunitas akademik internasional menilai kualitas penelitian dan pengajaran sebuah universitas.
+
+Indikator kedua adalah \textit{Citations per Faculty} (CpF) dengan bobot 20 persen. CpF mengukur rasio jumlah sitasi publikasi terhadap jumlah staf akademik. Rasio yang lebih tinggi menunjukkan bahwa penelitian institusi memiliki dampak yang lebih besar dalam komunitas ilmiah. Data yang diperlukan meliputi total sitasi publikasi, biasanya diambil dari basis data Scopus yang mencakup jurnal, konferensi, dan prosiding tertentu, serta jumlah \textit{faculty staff} yang terkait dengan publikasi tersebut.
+Rumusan matematis untuk Citations per Faculty adalah sebagai berikut.
+\begin{equation}
+    CpF = \frac{\text{Total Sitasi Publikasi}}{\text{Jumlah \textit{Faculty Staff}}}
+\end{equation}
+Indikator ini sangat dipengaruhi oleh kemampuan institusi dalam menghasilkan penelitian yang berkualitas dan sering dijadikan rujukan oleh peneliti lain. Karena itu, data mengenai jumlah publikasi, jenis publikasi, serta pola sitasi menjadi aspek yang perlu dipahami dengan baik dalam konteks ITB.
+\subsubsection{Lensa \textit{Employability and Outcomes}}
+Lensa kedua adalah \textit{Employability and Outcomes} dengan bobot total 20 persen. Lensa ini menilai sejauh mana institusi mampu mempersiapkan lulusannya untuk masuk ke dunia kerja dan bagaimana kontribusi alumni setelah mereka berkarier. Ada dua indikator utama di dalamnya. Indikator pertama adalah \textit{Employer Reputation} (ER) dengan bobot 15 persen, yang berasal dari survei global kepada pemberi kerja. Dalam survei tersebut, responden diminta menyebutkan institusi yang menurut mereka menghasilkan lulusan terbaik di bidangnya. Data yang dibutuhkan mencakup hasil survei reputasi pemberi kerja serta jumlah responden dari berbagai sektor seperti industri, jasa, pemerintahan, dan bidang lain. Indikator ini menunjukkan tingkat kepercayaan pasar kerja internasional terhadap kemampuan dan kesiapan kerja lulusan suatu institusi.
+
+Indikator kedua adalah \textit{Employment Outcomes} (EO) dengan bobot 5 persen. EO mengukur proporsi lulusan yang berhasil mendapatkan pekerjaan, melanjutkan pendidikan, atau mencapai posisi penting sebagai alumni. Data yang diperlukan meliputi jumlah lulusan setiap tahun, jumlah yang teridentifikasi bekerja, jumlah yang melanjutkan studi, serta informasi mengenai alumni yang memiliki dampak signifikan di berbagai sektor.
+\subsubsection{Lensa \textit{Learning Experience}}
+Lensa ketiga adalah \textit{Learning Experience} dengan bobot 10 persen dan terdiri dari satu indikator utama yaitu \textit{Faculty Student Ratio} (FSR). Indikator ini digunakan untuk menggambarkan kualitas proses pembelajaran melalui perbandingan jumlah staf akademik dengan jumlah mahasiswa. Rasio yang lebih kecil menunjukkan bahwa dosen dapat memberikan perhatian yang lebih dekat kepada mahasiswa, sedangkan rasio yang besar menandakan beban mengajar yang lebih tinggi. Data yang dibutuhkan untuk menghitung FSR meliputi jumlah \textit{faculty staff} yang aktif mengajar serta total mahasiswa, baik di jenjang undergraduate maupun postgraduate. Rumusan matematis untuk \textit{Faculty Student Ratio} adalah sebagai berikut.
+\begin{equation}
+    FSR = \frac{\text{Jumlah \textit{Faculty Staff}}}{\text{Jumlah Mahasiswa}}
+\end{equation}
+\subsubsection{Lensa \textit{Global Engagement}}
+Lensa keempat adalah \textit{Global Engagement} dengan bobot total 15 persen. Lensa ini menilai sejauh mana institusi terlibat dalam jaringan global melalui keberagaman staf dan mahasiswa serta aktivitas kolaborasi penelitian internasional. Di dalamnya terdapat beberapa indikator. Indikator pertama adalah \textit{International Faculty Ratio} (IFR) dengan bobot 5 persen, yang mengukur persentase staf akademik internasional dibandingkan dengan total staf. Data yang digunakan mencakup jumlah \textit{faculty staff} berkewarganegaraan asing dan jumlah keseluruhan \textit{faculty staff} di institusi. Rumusan matematis untuk \textit{International Faculty Ratio} adalah sebagai berikut.
+\begin{equation}
+    IFR = \frac{\text{Jumlah Staf Internasional}}{\text{Total Jumlah Staf}} \times 100\%    
+\end{equation}
+Indikator kedua adalah \textit{International Student Ratio} (ISR) dengan bobot 5 persen. ISR mengukur persentase mahasiswa internasional dibandingkan dengan keseluruhan populasi mahasiswa. Data yang diperlukan mencakup jumlah mahasiswa berstatus internasional, baik yang memegang visa pelajar maupun berstatus mahasiswa asing, pada setiap jenjang pendidikan, serta total jumlah mahasiswa di institusi. Rumusan matematis untuk \textit{International Student Ratio} adalah sebagai berikut.
+\begin{equation}
+    ISR = \frac{\text{Jumlah Mahasiswa Internasional}}{\text{Total Jumlah Mahasiswa}} \times 100\%
+\end{equation}
+Indikator ketiga adalah \textit{International Research Network} (IRN) dengan bobot 5 persen. IRN menilai sejauh mana institusi memiliki jaringan riset internasional yang luas dan beragam, yang diukur melalui publikasi kolaboratif dengan institusi atau peneliti dari berbagai negara. Data yang digunakan mencakup jumlah publikasi kolaboratif internasional, jumlah negara mitra, serta proporsi publikasi internasional dibandingkan total publikasi. Indikator ini penting karena mencerminkan kemampuan institusi membangun kerja sama riset global dan berkontribusi pada pengembangan ilmu pengetahuan di tingkat internasional.
+\subsubsection{Lensa \textit{Sustainability}}
+Lensa terakhir adalah \textit{Sustainability} dengan bobot 5 persen, yang menilai komitmen institusi terhadap pembangunan berkelanjutan dari aspek lingkungan, sosial, dan tata kelola. Data yang dikumpulkan mencakup inisiatif keberlanjutan lingkungan seperti pengurangan emisi karbon dan efisiensi energi, program pendidikan dan riset berkelanjutan, komitmen terhadap kesetaraan dan inklusi, program kesehatan dan kesejahteraan \textit{civitas academica}, serta praktik tata kelola yang baik. Meskipun bobotnya kecil, lensa ini semakin penting dalam konteks global karena menunjukkan tanggung jawab sosial institusi.
+\subsubsection{Data \textit{Submission} QS HUB}
+Setelah memahami lima lensa dan indikator yang digunakan dalam QS World University Rankings, langkah berikut dalam tahap \textit{data understanding} adalah mengidentifikasi data spesifik yang perlu dikumpulkan dan disampaikan melalui platform QS HUB. Platform ini menjadi portal resmi bagi universitas di seluruh dunia untuk mengunggah data terstruktur yang digunakan sebagai dasar perhitungan peringkat. Setiap institusi diwajibkan menyediakan data yang akurat, lengkap, dan tervalidasi sesuai kategori serta atribut yang telah ditetapkan QS. Pemahaman yang jelas mengenai struktur data submission ini sangat penting bagi ITB karena membantu SPM menentukan data mana saja yang sudah tersedia dalam sistem internal, mana yang masih perlu dilengkapi, serta bagaimana informasi tersebut nantinya diintegrasikan ke dalam dashboard monitoring.
+
+Untuk memperjelas ruang lingkup data yang harus dihimpun, Tabel \ref{tbl:qshub-data} di bawah ini menyajikan kategori data utama yang diminta oleh QS HUB beserta atribut detail yang harus disediakan oleh institusi.
+\begin{longtable}{|p{2.3cm}|p{5.5cm}|p{5.5cm}|}
+\caption{Kategori dan Atribut Data QS HUB}
+\label{tbl:qshub-data} \\
+\hline
+\textbf{Kategori} & \textbf{Atribut Utama} & \textbf{Keperluan} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Kategori} & \textbf{Atribut Utama} & \textbf{Keperluan} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{3}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+\textit{Faculty} 
+& Jumlah \textit{faculty staff} total, jumlah berdasarkan jenis kelamin, jumlah staf internasional, jumlah staf bergelar doktor, jumlah staf per bidang akademik 
+& Mendukung perhitungan \textit{Faculty Student Ratio} (FSR), \textit{International Faculty Ratio} (IFR), \textit{Citations per Faculty} (CpF), dan \textit{Employment Outcomes} \\
+\hline
+
+\textit{Students} 
+& Jumlah mahasiswa \textit{undergraduate} dan \textit{postgraduate} per program studi, jumlah mahasiswa internasional per jenjang, data pergerakan mahasiswa \textit{inbound} dan \textit{outbound}, proporsi mahasiswa berdasarkan kewarganegaraan 
+& Mendukung perhitungan \textit{Faculty Student Ratio} (FSR), \textit{International Student Ratio} (ISR), dan \textit{Employment Outcomes} \\
+\hline
+
+\textit{Programmes} 
+& Jumlah total program studi yang ditawarkan, jumlah program di setiap level, masa studi, tingkat akreditasi, tingkat kelulusan, rasio penerimaan mahasiswa, tenaga pengajar asing per program 
+& Mendukung analisis \textit{Learning Experience}, \textit{Employability}, dan insight akademik \\
+\hline
+
+\textit{Fees} 
+& Biaya kuliah rata-rata untuk mahasiswa domestik dan internasional, biaya pendaftaran, biaya administrasi per program, berbagai komponen biaya pendidikan 
+& Memberikan konteks sosial ekonomi mahasiswa serta informasi yang memengaruhi skor QS \\
+\hline
+
+\textit{Employment Statistics} 
+& Jumlah lulusan per tahun, jumlah responden survei yang teridentifikasi bekerja dalam jangka waktu tertentu, jumlah lulusan yang melanjutkan studi, jumlah alumni dengan posisi signifikan, informasi tentang alumni berpengaruh 
+& Mendukung perhitungan \textit{Employment Outcomes} dan \textit{Employer Reputation} \\
+\hline
+
+\textit{Sustainability} 
+& Inisiatif keberlanjutan lingkungan seperti pengurangan emisi karbon dan efisiensi energi, jumlah program pendidikan dan riset terkait keberlanjutan, komitmen terhadap kesetaraan dan inklusi, program kesehatan dan kesejahteraan \textit{sivitas academica}, praktik tata kelola yang baik 
+& Mendukung penilaian pada lensa \textit{Sustainability} \\
+\hline
+\end{longtable}
+Setiap atribut pada tabel \ref{tbl:qshub-data} perlu dikumpulkan karena seluruhnya akan digunakan dalam perhitungan indikator pemeringkatan. Pada kategori \textit{Faculty} dan \textit{Students} misalnya, data yang dibutuhkan tidak hanya berupa jumlah total, tetapi juga harus dipisah berdasarkan dimensi tertentu seperti jenis kelamin, status internasional, atau bidang akademik. Hal ini menuntut SPM ITB memastikan bahwa sistem pencatatan internal mampu menghasilkan laporan data yang terdisagregasi sesuai kebutuhan. Data pada kategori \textit{Employment Statistics} juga membutuhkan proses pelacakan lulusan yang baik agar status pekerjaan dan aktivitas mereka setelah lulus dapat diidentifikasi dengan jelas. Dengan memahami struktur data yang harus disubmisikan melalui QS HUB, melanjutkan ke tahap \textit{data preparation} dan merancang proses transformasi data, sehingga informasi dari berbagai sistem di ITB dapat dikonversi ke format dan struktur yang sesuai untuk \textit{dashboard} monitoring.
+\subsubsection{Proses Perhitungan Skor QS}
+Proses perhitungan skor pada QS berlangsung dalam tiga tahap utama. Tahap pertama adalah menghitung nilai mentah (\textit{raw value}) berdasarkan rasio atau indeks dari setiap indikator, baik untuk data milik institusi maupun seluruh institusi yang ikut dinilai. Tahap kedua adalah melakukan normalisasi menggunakan Z-Score agar nilai dari berbagai institusi berada pada skala yang sama dan dapat dibandingkan secara adil.
+\begin{equation}
+    \text{Z-Score} = \frac{X - \mu}{\sigma}
+\end{equation}
+
+\noindent Keterangan:
+\begin{itemize}
+    \item \(X\) = nilai mentah institusi
+    \item \(\mu\) = rata-rata nilai seluruh institusi yang dinilai
+    \item \(\sigma\) = standar deviasi nilai seluruh institusi
+\end{itemize}
+Tahap ketiga adalah penskalaan nilai ke rentang 0 hingga 100 agar skor lebih mudah dibaca dan dibandingkan. Perlu diperhatikan bahwa proses pemeringkatan untuk setiap indikator tetap menggunakan rasio atau indeks asli, bukan skor yang sudah diskalakan. Dengan cara ini, institusi masih dapat menunjukkan performa pada tingkat yang lebih detail. Skor keseluruhan juga hanya disajikan untuk peringkat tertentu, misalnya hingga peringkat 500 pada QS WUR global, sementara institusi di bawah batas tersebut biasanya ditempatkan dalam band peringkat tanpa nilai numerik yang spesifik.
+
+Dengan memahami struktur indikator, rumus matematis, kategori data, dan cara perhitungan skor, dapat mengidentifikasi data apa saja yang sudah tersedia di SPM ITB, menentukan \textit{gap} antara data yang dimiliki dengan data yang dibutuhkan, serta merancang strategi pengumpulan dan transformasi data pada tahap berikutnya. Hasil dari tahap \textit{data understanding} ini menjadi dasar untuk menentukan atribut mana yang dapat digunakan langsung, mana yang perlu dihitung atau diagregasi ulang, dan mana yang memerlukan sumber data tambahan sebelum melanjutkan ke tahap \textit{data preparation}.
+\subsection{\textit{Data Preparation}}
+Pada tahap \textit{data preparation}, pengolahan data dilakukan menggunakan Power Query yang terintegrasi di Power BI Desktop. Power Query berperan sebagai mesin ETL yang memungkinkan peneliti mengambil data dari berbagai file sumber milik SPM ITB, membersihkannya, melakukan transformasi, dan kemudian memuat hasilnya ke dalam model Power BI. Proses transformasi yang dilakukan mencakup penetapan baris header, penyesuaian tipe data sesuai isi kolom, penghapusan nilai kosong dan data duplikat, penyelarasan nama dan format agar data konsisten, serta penambahan kolom kalkulasi untuk indikator seperti \textit{Citations per Faculty} atau \textit{International Student Ratio}. Selain itu, beberapa tabel dari sumber berbeda juga digabungkan menggunakan fitur Append Queries atau Merge Queries.
+
+Setelah semua langkah transformasi selesai, data dimuat ke model Power BI. Setiap langkah yang dilakukan tercatat dalam Power Query sehingga bisa dijalankan kembali secara otomatis saat dataset di-refresh. Hasil dari tahap \textit{data preparation} ini adalah data yang lebih bersih, rapi, dan terstruktur, yang kemudian siap digunakan pada tahap \textit{modelling} dalam pembuatan \textit{dashboard}.
+\subsection{\textit{Modelling}}
+Model data yang telah dibangun kemudian divisualisasikan di Power BI untuk menghasilkan \textit{dashboard} interaktif yang mendukung pemantauan kinerja QS ITB. Power BI menyediakan beragam jenis visual yang dapat disesuaikan dengan kebutuhan analisis, seperti grafik garis untuk melihat perkembangan indikator dari waktu ke waktu, diagram batang untuk membandingkan capaian antar unit atau periode, kartu indikator untuk menampilkan ringkasan KPI dengan kode warna, serta filter interaktif yang mempermudah eksplorasi data lebih mendalam.
+
+Visualisasi ini membantu pengguna, termasuk pimpinan rektorat dan SPM, memahami pola dan temuan penting secara lebih intuitif, mengenali unit yang menunjukkan performa baik atau yang membutuhkan perhatian, serta melakukan analisis detail melalui fitur \textit{drill down}. Dengan dukungan Power BI, proses interpretasi data menjadi lebih efisien dan dapat mempercepat pengambilan keputusan yang tepat dalam menanggapi capaian pada setiap indikator QS.
+
+\subsection{\textit{Evaluation}}
+\label{chap:desain-pengujian-evaluasi}
+Pada tahap \textit{evaluation}, \textit{dashboard} yang sudah dibangun ditinjau kembali untuk memastikan bahwa hasil visualisasinya benar benar sesuai dengan tujuan bisnis dan kebutuhan pengguna yang telah dirumuskan pada tahap \textit{business understanding}. Proses evaluasi mencakup pengecekan akurasi data di \textit{dashboard} dengan cara membandingkannya langsung dengan data sumber dari SPM ITB untuk memastikan tidak ada kesalahan perhitungan maupun transformasi. Pengujian interaktivitas juga dilakukan, seperti memastikan fungsi \textit{filter} dan \textit{slicer} berjalan sebagaimana mestinya dan setiap visual mampu merespons perubahan input pengguna dengan cepat.
+
+Selain itu, Desain visual juga ditinjau ulang untuk melihat apakah tata letak, pemilihan warna, dan label informasi sudah cukup jelas dan mudah dipahami oleh berbagai jenis pengguna. Umpan balik dari \textit{stakeholder} seperti SPM, pimpinan rektorat, dan kepala unit dikumpulkan untuk mengidentifikasi area yang masih perlu diperbaiki atau fitur tambahan yang mungkin dibutuhkan. Hasil evaluasi ini akan menjadi dasar refinemen sebelum dashboard memasuki tahap \textit{deployment}.
+
+\subsection{\textit{Deployment}}
+Pada tahap \textit{deployment}, \textit{dashboard} yang telah melewati proses evaluasi dipublikasikan ke Power BI Service agar bisa diakses oleh pengguna di lingkungan ITB. Proses ini dimulai dengan menyiapkan workspace di Power BI Service yang terhubung dengan Microsoft 365 ITB, kemudian mengunggah file Power BI Desktop (.pbix) yang berisi model data dan \textit{dashboard}. Setelah dipublikasikan, \textit{dashboard} dapat diakses melalui browser atau aplikasi mobile Power BI oleh pengguna yang memiliki akun institusi dan hak akses yang sesuai.
+
+Pengaturan keamanan dan permission juga ditetapkan untuk memastikan setiap pengguna hanya dapat melihat data yang relevan dengan perannya. Misalnya, pimpinan rektorat dapat melihat ringkasan performa institusi secara keseluruhan, sementara kepala unit hanya dapat melihat informasi untuk unitnya masing masing. Pada tahap ini juga dikonfigurasikan jadwal refresh dataset agar data dari SPM ITB diperbarui secara otomatis sesuai frekuensi yang ditentukan, misalnya mingguan atau bulanan.
+
+
+
+
+
+
+
+

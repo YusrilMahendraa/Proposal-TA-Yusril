@@ -1,0 +1,291 @@
+% ============================================================================================
+% BAB III ANALISIS MASALAH
+% Pembagian subbab tidak rigid dan dapat bervariasi. Bab ini minimal berisi analisis kebutuhan
+% fungsional dan nonfungsional, analisis berbagai alternatif solusi yang dapat ditawarkan, dan
+% metode pemilihan solusi yang diusulkan.
+% ============================================================================================
+\chapter{ANALISIS MASALAH}
+\label{chap:analisis-masalah}
+\section{Analisis Kondisi Saat Ini}
+Institut Teknologi Bandung (ITB) sebagai salah satu institusi pendidikan tinggi terunggul di Indonesia memiliki komitmen kuat terhadap pengukuran dan peningkatan kinerja institusional pada bidang pendidikan, penelitian, dan pengabdian kepada masyarakat. Berbagai data capaian terkait kegiatan akademik, \textit{output} penelitian, kolaborasi, dan indikator lain yang relevan dengan mutu serta pemeringkatan global telah dikumpulkan oleh Satuan Penjaminan Mutu (SPM) dan unit-unit pendukung di lingkungan ITB. Data tersebut menjadi dasar penting dalam proses evaluasi mutu internal, akreditasi, serta pemantauan pemeringkatan institusi pendidikan, salah satunya adalah terhadap indikator-indikator QS World University Rankings.
+
+Meskipun data kinerja telah tersedia, hingga saat ini ITB belum memiliki media visualisasi berupa \textit{dashboard} kinerja institusional yang menyajikan indikator-indikator tersebut secara ringkas, terstruktur, dan mudah dibaca oleh pimpinan. Ketiadaan tampilan visual yang komprehensif menyulitkan rektor dan jajaran pimpinan untuk melihat pola dan tren capaian kinerja secara sekilas, misalnya perkembangan publikasi dan sitasi, kontribusi masing-masing fakultas, atau kemajuan indikator yang berkaitan dengan target QS.
+
+Di sisi lain, ketua program studi (kaprodi) dan pimpinan unit juga belum memiliki satu rujukan visual bersama yang secara jelas menggambarkan posisi unitnya terhadap target institusional dan indikator kinerja utama. Ketiadaan media visualisasi kinerja yang terstandar ini membuat informasi yang tersedia belum tersaji dalam bentuk ringkas dan intuitif, sehingga pemahaman kondisi terkini setiap unit lebih sulit diperoleh secara cepat.
+
+Keterbatasan media penyajian kinerja dalam bentuk visual yang terintegrasi ini berdampak pada efektivitas proses pemantauan dan evaluasi di tingkat pimpinan. Tanpa adanya tampilan kinerja institusional yang dapat diakses secara mudah dan konsisten, rektor dan jajaran pimpinan menghadapi tantangan dalam melakukan pemantauan berkelanjutan terhadap kemajuan ITB menuju sasaran strategis, termasuk ambisi untuk mencapai peringkat 150 besar dunia versi QS World University Rankings pada tahun 2030. Hal ini menjadikan kebutuhan akan cara penyajian informasi kinerja yang lebih terstruktur, mudah dipahami, dan mendukung pengambilan keputusan berbasis data semakin penting dalam konteks pengelolaan perguruan tinggi modern.
+\section{Analisis Kebutuhan}
+Berdasarkan analisis kondisi saat ini, terlihat bahwa ITB telah memiliki beragam
+data capaian kinerja yang berkaitan dengan indikator QS World University Rankings,
+tetapi data tersebut belum dikelola dan disajikan secara optimal untuk mendukung
+pengambilan keputusan pimpinan. Untuk merumuskan kebutuhan pengembangan
+dashboard capaian indikator QS WUR di ITB, dilakukan analisis lebih lanjut dengan
+membandingkan kondisi berjalan saat ini dengan kondisi ideal yang ingin
+diwujudkan. Pendekatan ini dituangkan dalam \textit{gap analysis} yang merangkum
+tiga aspek utama, yaitu pengelolaan dan dokumentasi data capaian QS, ketersediaan
+tampilan visual bagi pimpinan universitas, serta keberadaan media penyajian
+kinerja yang konsisten dan mudah diakses oleh berbagai pemangku kepentingan di ITB.
+
+\subsection{Identifikasi Masalah Pengguna}
+Untuk merumuskan kebutuhan pengembangan \textit{dashboard} capaian indikator QS World University Rankings di ITB, terlebih dahulu dilakukan analisis dengan membandingkan kondisi saat ini dengan kondisi ideal yang ingin diwujudkan. Melalui \textit{gap analysis} tersebut, dapat dikenali kesenjangan antara situasi sekarang dan target yang ditetapkan, sekaligus dirumuskan strategi pengembangan sistem yang perlu ditempuh untuk menjembataninya. Hasil \textit{gap analysis} ini disajikan pada Tabel~\ref{tbl:gap-analysis}.
+\begin{table}[H]
+\begin{tabular}{ | p{4cm} | p{4cm} | p{4cm} |}
+	\hline
+	Kondisi Aktual 	& Kondisi Ideal 		& Strategi \\
+	\hline  
+    Data terkait data hasil capaian untuk pemeringkatan QS WUR belum terdokumentasikan. & Data capaian indikator QS terintegrasi dalam satu sumber data terpusat
+        dengan struktur dan format yang terstandar dan siap diolah untuk
+        kebutuhan visualisasi. & Merancang arsitektur integrasi data serta alur \textit{ETL} dari SPM dan
+        unit terkait ke repositori data bersama sebagai fondasi dashboard. \\
+    \hline
+	Pimpinan universitas belum memiliki tampilan visual untuk melihat ringkasan capaian dan tren indikator QS pada level
+    institusi. 	& Tersedia \textit{dashboard} institusional yang menyajikan rangkuman capaian dan
+    tren setiap indikator QS secara ringkas, jelas, dan mudah dibaca oleh
+    pimpinan.	& Mendesain prototipe \textit{dashboard} QS tingkat institusi dengan visualisasi
+        agregat per indikator dan tren waktu yang mendukung pemantauan
+        kemajuan menuju target QS 2030. \\
+    \hline
+	Belum tersedia media penyajian kinerja yang mudah diakses dan konsisten
+        yang mendorong budaya kerja berbasis data dan transparansi capaian QS
+        di lingkungan ITB.	& \textit{Dashboard} menjadi media komunikasi kinerja yang terstruktur,
+        transparan, dan dapat diakses sesuai hak akses oleh pimpinan
+        universitas, pengelola program studi, dan unit pendukung.		& Mendefinisikan peran dan hak akses pengguna pada \textit{dashboard} serta
+        melengkapi tampilan dengan penjelasan indikator agar mudah dipahami
+        oleh berbagai pemangku kepentingan. \\
+	\hline
+\end{tabular}
+\caption{Tabel \textit{Gap Analysis}}
+\label{tbl:gap-analysis}
+\end{table}
+\subsection{Kebutuhan Fungsional}
+Untuk merealisasikan hasil \textit{gap analysis}, dilakukan identifikasi kebutuhan fungsional yang harus dipenuhi oleh sistem dashboard capaian indikator QS WUR di ITB. Kebutuhan fungsional adalah spesifikasi terperinci mengenai layanan, fungsi, atau proses yang harus disediakan oleh suatu sistem untuk memenuhi tujuan tertentu. Berikut ini adalah daftar kebutuhan fungsional yang diidentifikasi dan dapat dilihat pada Tabel~\ref{tbl:kebutuhan-fungsional}.
+\begin{longtable}{|p{1cm}|p{6cm}|p{6cm}|}
+\caption{Kebutuhan Fungsional}
+\label{tbl:kebutuhan-fungsional} \\
+\hline
+\textbf{ID} & \textbf{Kebutuhan} & \textbf{Penjelasan} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{ID} & \textbf{Kebutuhan} & \textbf{Penjelasan} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
+F01 & Sistem dapat menampilkan visualisasi data capaian indikator QS pada tingkat institusi &
+Menyediakan grafik atau tabel ringkas yang menunjukkan nilai capaian indikator QS untuk ITB secara keseluruhan. \\
+\hline
+
+F02 & Sistem dapat menampilkan tren capaian indikator QS dari waktu ke waktu &
+Menampilkan perubahan capaian indikator QS per tahun agar pengguna dapat melihat pola kenaikan atau penurunan. \\
+\hline
+
+F03 & Sistem dapat memfilter data berdasarkan parameter tertentu &
+Pengguna dapat memfilter data berdasarkan tahun, indikator QS, fakultas, atau program studi sesuai kebutuhan analisis. \\
+\hline
+
+F04 & Sistem dapat menampilkan detail capaian hingga level fakultas dan program studi &
+Memungkinkan pengguna melihat capaian indikator QS per fakultas dan program studi, termasuk perbandingan antar unit. \\
+\hline
+
+F05 & Sistem dapat menampilkan perbandingan capaian dengan target yang ditetapkan &
+Menunjukkan selisih antara capaian saat ini dan target (misalnya target QS 2030) untuk setiap indikator QS. \\
+\hline
+
+\end{longtable}
+
+\subsection{Kebutuhan Non-Fungsional}
+Selain adanya kebutuhan fungsional, sistem dashboard capaian indikator QS WUR di ITB juga harus memenuhi sejumlah kebutuhan non-fungsional yang berkaitan dengan kualitas, performa, dan aspek teknis lainnya. Kebutuhan non-fungsional sendiri adalah kriteria yang menetapkan kriteria untuk menilai operasi suatu sistem, bukan perilaku spesifiknya. Berikut ini adalah daftar kebutuhan non-fungsional yang diidentifikasi dan dapat dilihat pada Tabel~\ref{tbl:kebutuhan-nonfungsional}.
+\begin{table}[H]
+\begin{tabular}{ | p{1cm} | p{3cm} | p{9cm} | }
+\hline
+\textbf{ID} & \textbf{Kebutuhan} & \textbf{Penjelasan} \\
+\hline
+NF01 & \textit{Performance} & Sistem harus mampu menampilkan grafik, tabel, dan indikator performa utama dengan waktu respons maksimal 5 detik setelah pengguna memilih filter atau membuka halaman tertentu, agar eksplorasi data QS dapat dilakukan secara nyaman tanpa jeda yang mengganggu.\\
+\hline
+NF02 & \textit{Supportability} & Sistem memanfaatkan layanan cloud sebagai \textit{environment deployment} sehingga penyimpanan data, pemrosesan, dan penyajian visualisasi dapat diskalakan sesuai kebutuhan tanpa penambahan perangkat keras lokal. \\
+\hline
+NF03 & \textit{Reliability} & Sistem harus tetap dapat diakses dan menampilkan data terakhir yang tersimpan meskipun terjadi gangguan sementara pada koneksi jaringan internal, sehingga pimpinan tetap dapat melihat capaian indikator QS. \\
+\hline
+NF04 & \textit{Availability} & Tingkat ketersediaan sistem minimal 99\% dalam satu bulan kalender agar dashboard QS selalu siap digunakan untuk pemantauan kinerja dan rapat pimpinan. \\
+\hline
+\end{tabular}
+\caption{Kebutuhan Non-Fungsional}
+\label{tbl:kebutuhan-nonfungsional}
+\end{table}
+\section{Analisis Pemilihan Solusi}
+\subsection{Alternatif Solusi}
+Untuk mengembangkan visualisasi data yang relevan dengan kebutuhan pemantauan dan evaluasi kinerja, diperlukan penentuan platform visualisasi yang paling sesuai dengan konteks tugas akhir ini. Pemilihan platform diarahkan oleh beberapa kriteria utama, yaitu biaya, platform, integrasi ekosistem, kemudahan penggunaan, opsi \textit{deployment}, serta kesesuaian skala organisasi, sehingga analisis tidak hanya menyoroti kemampuan teknis, tetapi juga keselarasan dengan lingkungan teknologi yang sudah ada.
+
+Tabel \ref{tbl:perbandingan-alternatif-solusi} menyajikan perbandingan singkat antara Power BI, Tableau, dan Looker Studio berdasarkan kriteria tersebut sebagai dasar penentuan alternatif solusi yang akan digunakan.
+\begin{longtable}{|p{2cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
+\caption{Perbandingan Alternatif Solusi Platform Visualisasi Data}
+\label{tbl:perbandingan-alternatif-solusi} \\
+\hline
+\textbf{Aspek} & \textbf{Power BI} & \textbf{Tableau} & \textbf{Looker Studio} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Aspek} & \textbf{Power BI} & \textbf{Tableau} & \textbf{Looker Studio} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\endlastfoot
+
+Biaya & Power BI Desktop gratis, sedangkan lisensi Pro atau kapasitas Premium berbayar terpisah. & Opsi lisensi berbayar terpisah & Looker Studio tersedia gratis dengan akun Google, sedangkan fitur lanjutan dan dukungan skala yang lebih besar disediakan pada Studio Pro atau platform Looker berbayar.\\
+\hline
+
+Platform & Platform BI milik Microsoft dengan aplikasi desktop, layanan cloud, dan aplikasi mobile dalam ekosistem Microsoft 365. & Platform BI dengan aplikasi desktop, Tableau Cloud, dan Tableau Server untuk akses melalui browser dan perangkat mobile. & berbasis web di Google Cloud melalui browser tanpa instalasi desktop khusus.\\
+\hline
+
+Integrasi ekosistem & Terintegrasi dengan dengan Excel, SQL Server, Azure, dan layanan Microsoft lain & Mendukung integrasi ke beragam database on‑premise dan cloud, termasuk data warehouse serta layanan analitik pihak ketiga. & Terintegrasi langsung dengan BigQuery, Google Sheets, Google Analytics, dan layanan Google Cloud lainnya. \\
+\hline
+
+Kemudahan penggunaan & Antarmuka(UI) drag‑and‑drop yang cukup familiar bagi pengguna Excel & Dashboard interaktif dengan fleksibilitas tinggi, sehingga cocok untuk eksplorasi dan analisis visual mendalam. & Tampilan web yang sederhana\\
+\hline
+
+Opsi \textit{deployment} & Dapat digunakan di desktop lokal dan dipublikasikan ke layanan cloud, dengan opsi integrasi ke \textit{environment} \textit{on‑premises}. & Menyediakan \textit{deployment} di cloud maupun server yang dikelola sendiri & Berbasis cloud sepenuhnya di infrastruktur Google \\
+\hline
+
+Kesesuaian skala organisasi & Lebih tepat untuk organisasi yang telah menggunakan ekosistem Microsoft & Sesuai untuk organisasi dengan tim data yang cukup besar dan kebutuhan analisis visual yang kompleks pada level strategis. & Cocok untuk tim/organisasi kecil hingga menengah yang memusatkan data di produk Google.\\
+\hline
+\end{longtable}
+
+Berdasarkan perbandingan pada \ref{tbl:perbandingan-alternatif-solusi}, setiap platform punya keunggulan masing masing sesuai konteks dan skala kebutuhan. Power BI cocok untuk organisasi yang sudah memakai ekosistem Microsoft, karena terintegrasi baik dengan Excel, SQL Server, dan Azure. Platform ini juga fleksibel untuk dipakai lewat desktop atau cloud, dengan biaya lisensi yang umumnya masih ramah atau murah untuk berbagai ukuran perusahaan.
+
+Tableau lebih pas untuk analisis visual yang kompleks, terutama bagi tim data yang sudah terbiasa mengelola kebutuhan analitik. Integrasinya luas ke berbagai sumber data, baik \textit{on-premise} maupun \textit{cloud}, dan opsi \textit{deployment}-nya bisa disesuaikan dengan kebijakan infrastruktur internal. Ini membuatnya ideal untuk kebutuhan analitik yang lebih strategis.
+
+Di sisi lain, Looker Studio menawarkan solusi yang ringan dan ekonomis untuk tim/organisasi kecil hingga menengah yang banyak memakai layanan Google. Fitur dasarnya gratis, antarmukanya sederhana, dan semuanya berjalan di \textit{cloud}. Ini memudahkan pembuatan \textit{dashboard} dan laporan dengan cepat tanpa perlu mengelola server tambahan.
+\subsection{Analisis Penentuan Solusi}
+Dalam menganalisis platform yang paling tepat untuk pengembangan \textit{dashboard} visualisasi data pada tugas akhir ini, pemilihan solusi perlu dilakukan dengan cara yang terstruktur. Berbagai kriteria seperti biaya, integrasi dengan ekosistem yang ada, dan kesesuaian dengan skala organisasi harus dipertimbangkan agar keputusan yang diambil tidak hanya efektif, tetapi juga realistis untuk konteks institusi. Karena itu, dibutuhkan metode pendukung keputusan yang mampu menangani banyak kriteria sekaligus dan menilai setiap aspek secara seimbang agar prioritasnya jelas.
+
+Metode \textit{Simple Multi-Attribute Rating Technique} (SMART) menjadi pilihan yang tepat dalam proses ini karena dirancang untuk menangani pengambilan keputusan yang melibatkan banyak kriteria. SMART memungkinkan setiap aspek dinilai secara terpisah lalu digabungkan secara terstruktur untuk menghasilkan prioritas yang jelas. Metode ini mampu memberikan keputusan yang objektif pada situasi multikriteria\cite{sobriPenerapanMetodeSMART2021}. Dengan demikian, penggunaan SMART membantu memastikan bahwa pemilihan platform dilakukan secara sistematis dan sesuai dengan kebutuhan analisis pada tugas akhir ini.
+
+Pada tahap awal metode SMART, setiap kriteria diberi bobot untuk menunjukkan seberapa besar pengaruhnya dalam menentukan platform visualisasi data yang paling tepat. Kemudahan Pengguna menjadi kriteria dengan bobot tertinggi, yaitu 25 persen, karena keberhasilan sebuah dashboard sangat bergantung pada apakah pengguna non teknis bisa memahaminya tanpa kesulitan. Jika antarmuka rumit atau alurnya membingungkan, dashboard tidak akan dimanfaatkan secara optimal meskipun fiturnya lengkap. Karena itu, aspek ini ditempatkan sebagai prioritas utama.
+
+Kesesuaian Skala Organisasi mendapat bobot 20 persen dengan fokus pada kecocokan platform terhadap ekosistem teknologi dan pola kerja yang sudah berjalan. Misalnya, apakah lingkungan kerja lebih banyak bergantung pada produk Microsoft, Google, atau kombinasi sistem lain. Platform yang sesuai dengan ekosistem yang sudah digunakan akan lebih mudah diintegrasikan, dikelola, dan diadopsi oleh berbagai unit. Sementara itu, solusi yang tidak cocok dengan ekosistem dapat menimbulkan kebutuhan integrasi tambahan, migrasi data, dan hambatan operasional.
+
+Biaya diberi bobot 15 persen karena untuk lisensi, langganan, dan infrastruktur tetap perlu dikontrol agar solusi yang dipilih realistis untuk diterapkan. Namun, biaya tidak menjadi mayoritas pertimbangan pengambilan keputusan sampai mengorbankan kualitas fungsi atau keberlanjutan sistem.
+
+Integrasi Data juga diberi bobot 20 persen karena dashboard monev biasanya menggabungkan data dari banyak sumber. Kemampuan platform untuk menghubungkan dan menyatukan data secara konsisten sangat memengaruhi kelengkapan dan keandalan informasi yang disajikan.
+
+Terakhir, Kustomisasi berbobot 20 persen untuk menegaskan pentingnya fleksibilitas dalam menyesuaikan tampilan, indikator, filter, dan logika perhitungan sesuai kebutuhan institusi. Tanpa kemampuan kustomisasi yang cukup, dashboard akan sulit mengikuti perubahan kebijakan, penambahan indikator, atau perubahan fokus pemantauan.
+
+Dengan susunan bobot tersebut, proses penilaian menjadi lebih seimbang karena mempertimbangkan kemudahan penggunaan, efisiensi biaya, kesesuaian dengan ekosistem dan skala organisasi, kemampuan integrasi data, serta fleksibilitas pengembangan di masa depan. Agar lebih mudah dalam melakukan perhitungan bobot diubah ke bentuk normalisasi seperti pada Tabel~\ref{tbl:bobot-kriteria}.
+\begin{table}[H]
+\begin{tabular}{ | p{5cm} | c | c | }
+\hline
+\textbf{Kriteria} & \textbf{Bobot (\%)} & \textbf{Bobot Normalisasi} \\
+\hline
+Kemudahan Pengguna & 25 & 0.25 \\   
+\hline
+Kesesuaian Skala Organisasi & 20 & 0.20 \\
+\hline
+Biaya & 15 & 0.15 \\
+\hline
+Integrasi Data & 20 & 0.20 \\
+\hline
+Kustomisasi & 20 & 0.20 \\
+\hline
+\end{tabular}
+\caption{Bobot Kriteria Pemilihan Solusi}
+\label{tbl:bobot-kriteria}
+\end{table}
+
+Kriteria yang digunakan dalam analisis ini memiliki pembobotan yang dirancang agar setiap aspek penting dalam pengambilan keputusan dapat berkontribusi secara proporsional terhadap hasil akhir. Berdasarkan pembobotan pada Tabel \ref{tbl:bobot-kriteria}, total bobot seluruh kriteria adalah sebagai berikut.
+\[
+\sum_{j=1}^{5} w_j = 0.25 + 0.15 + 0.20 + 0.20 + 0.20 = 1
+\]
+
+Karena total bobot sudah sama dengan 1, maka bobot yang digunakan langsung adalah bobot yang sudah ditentukan sebelumnya, tanpa perlu dilakukan normalisasi ulang. Namun, apabila jumlah bobot belum sama dengan 1, normalisasi dapat dilakukan menggunakan rumus sebagai berikut.
+\begin{equation}
+N w_j = \frac{W_j}{\sum_{k=1}^{K} W_k}
+\end{equation}
+
+Setelah bobot kriteria sudah ditetapkan dan dinormalisasi, penilaian untuk setiap alternatif solusi dilakukan dengan menjumlahkan hasil perkalian antara bobot kriteria dengan nilai utilitas masing-masing alternatif pada setiap kriteria. Rumusan matematis perhitungannya dapat dinyatakan sebagai berikut.
+\begin{equation}
+u(a_i) = \sum_{j=1}^{m} \hat{w}_j \cdot u_j(a_i)
+\end{equation}
+Keterangan:
+\begin{itemize}
+    \item $u(a_i)$ = nilai utilitas total untuk alternatif ke-i
+    \item $\hat{w}_j$ = bobot normalisasi untuk kriteria ke-j
+    \item $u_j(a_i)$ = nilai utilitas alternatif ke-i pada kriteria ke-j
+\end{itemize}
+
+Dengan cara ini, setiap alternatif solusi akan memperoleh nilai akhir yang sudah mempertimbangkan kepentingan relatif seluruh kriteria, sehingga keputusan yang diambil lebih komprehensif dan dapat dipertanggungjawabkan. Setelah dilakukan penilaian terhadap masing-masing alternatif solusi berdasarkan kriteria yang telah ditetapkan, diperoleh hasil perhitungan nilai utilitas total untuk setiap platform visualisasi data. Hasil penilaian tersebut disajikan pada Tabel~\ref{tbl:hasil-penilaian-alternatif}.
+\begin{table}[H]
+\begin{tabular}{ | p{4cm} | p{3cm} | p{3cm} | p{3cm}|}
+\hline
+\textbf{Aspek} & \textbf{Power BI} & \textbf{Tableau} & \textbf{Looker Studio} \\
+\hline
+Kemudahan Pengguna & 8 & 7 & 8 \\
+\hline
+Keseuaian Skala Organisasi & 9 & 7 & 8 \\
+\hline
+Biaya & 8 & 7 & 9 \\
+\hline
+Integrasi Data & 9 & 9 & 9 \\
+\hline
+Kustomisasi & 8 & 9 & 7 \\
+\hline
+\end{tabular}
+\caption{Nilai Utilitas Total Alternatif Solusi}
+\label{tbl:hasil-penilaian-alternatif}
+\end{table}
+
+Setelah seluruh aspek dinilai, langkah berikutnya adalah mengalikan setiap nilai dengan bobot kriteria yang telah ditetapkan pada bagian sebelumnya menggunakan rumus SMART. Melalui proses pembobotan ini, setiap alternatif platform (Power BI, Tableau, dan Looker Studio) memperoleh skor total yang mencerminkan kontribusi relatif dari kemudahan pengguna, biaya, kesesuaian skala organisasi, integrasi data, dan kustomisasi. Rincian perhitungan untuk masing‑masing alternatif disajikan pada bagian dibawah ini, sehingga dapat terlihat dengan jelas bagaimana setiap aspek memengaruhi hasil akhir dan mengapa satu platform dipilih sebagai solusi yang paling sesuai.
+
+\begin{enumerate}
+\item Power BI
+
+Pada aspek kemudahan pengguna, Power BI mendapat nilai 8 karena antarmukanya berbasis \textit{drag and drop} yang relatif intuitif dan konsisten dengan pola desain aplikasi Microsoft. Meskipun masih menampilkan berbagai panel dan opsi teknis seperti model data dan ekspresi DAX yang dapat terasa kompleks bagi pengguna yang benar-benar baru menggunakannya, struktur menunya tetap cukup terarah sehingga pengguna dengan sedikit pengalaman \textit{business intelligence} dapat beradaptasi dengan cepat. Untuk kesesuaian skala organisasi, Power BI memperoleh nilai 9 karena sangat sejalan dengan ekosistem Microsoft yang digunakan ITB melalui langganan Microsoft 365, sehingga proses integrasi akun institusi, pengelolaan akses, serta distribusi laporan ke berbagai unit dapat berjalan lebih mudah dan konsisten. Pada aspek biaya, Power BI mendapatkan nilai 8 karena meskipun memerlukan lisensi Pro atau kapasitas Premium untuk kolaborasi sepenuh,nya harga biayanya masih relatif bersahabat bagi organisasi yang sudah menggunakan layanan Microsoft lainnya. Aspek integrasi data dinilai 9 karena Power BI terhubung kuat dengan Excel, SQL Server, Azure, dan berbagai sumber data lain sehingga mampu menggabungkan data dari banyak sistem operasional. Terakhir, kustomisasi memperoleh nilai 8 karena Power BI menyediakan beragam jenis visual, dukungan custom visual, serta kemampuan perhitungan melalui DAX yang memberikan fleksibilitas tinggi dalam menyusun indikator dan tampilan \textit{dashboard}.
+\begin{align*}
+u(\text{Power BI})
+    &= (0.25 \times 8) + (0.20 \times 9) + (0.15 \times 8) + (0.20 \times 9)\\ 
+    &+ (0.20 \times 8)\\
+    &= 2.00 + 1.80 + 1.20 + 1.80 + 1.60\\
+    &= 8.40
+\end{align*}
+
+
+
+\item Tableau
+
+Pada aspek kemudahan pengguna, Tableau mendapat nilai 7. Walaupun antarmukanya mendukung fitur \textit{drag and drop} untuk eksplorasi visual, pengguna baru tetap perlu memahami konsep \textit{worksheet}, \textit{dashboard}, serta \textit{shelf} seperti \textit{Rows}, \textit{Columns}, dan \textit{Marks} sebelum dapat memanfaatkan Tableau secara optimal. Untuk kesesuaian skala organisasi, Tableau memperoleh nilai 7. Platform ini sebenarnya siap untuk kebutuhan enterprise dan mendukung \textit{deployment} berbasis \textit{cloud} maupun server \textit{on premise}, namun pada konteks ITB yang sudah terbiasa dengan ekosistem Microsoft, integrasi Tableau ke dalam lingkungan kerja yang ada tidak selancar Power BI. Pada aspek biaya, Tableau mendapatkan nilai 7 karena harga lisensinya cenderung lebih mahal per pengguna dan dibagi ke dalam beberapa peran, sehingga total biaya bisa meningkat ketika jumlah pengguna bertambah, walaupun masih dapat dipertimbangkan jika organisasi membutuhkan kapabilitas visualisasi tingkat lanjut. Pada integrasi data, Tableau mendapat nilai 9 karena mampu terhubung dengan beragam database baik \textit{on premise} maupun \textit{cloud}, sehingga banyak digunakan untuk pengelolaan data \textit{warehouse} dan analitik berskala besar. Untuk kustomisasi, Tableau memperoleh nilai 9 karena fleksibilitas visualisasinya tinggi dan mendukung banyak variasi grafik, kalkulasi, serta interaksi lanjutan yang dapat disesuaikan dengan kebutuhan analisis.
+\begin{align*}
+u(\text{Tableau})
+    &= (0.25 \times 7) + (0.20 \times 7) + (0.15 \times 7) + (0.20 \times 9)\\
+    &+ (0.20 \times 9)\\
+    &= 1.75 + 1.40 + 1.05 + 1.80 + 1.80\\
+    &= 7.80
+\end{align*}
+
+
+
+\item Looker Studio
+
+Untuk kemudahan pengguna, Looker Studio mendapatkan nilai 8 karena antarmukanya sangat sederhana, sepenuhnya berbasis web, dan proses pembuatan laporan relatif cepat terutama bagi pengguna yang sudah terbiasa memakai layanan Google. Namun, pengaturan lanjutan tetap tersebar di beberapa menu sehingga untuk kebutuhan analitik yang lebih kompleks masih diperlukan proses adaptasi. Pada kesesuaian skala organisasi, Looker Studio memperoleh nilai 8. Platform ini cocok untuk tim kecil hingga menengah yang mengandalkan ekosistem Google seperti BigQuery, Google Sheets, dan Google Analytics, namun pada konteks ITB yang menggunakan ekosistem Microsoft, integrasi Google tidak dapat dimanfaatkan sepenuhnya sehingga skalanya kurang optimal dibanding Power BI. Pada aspek biaya, Looker Studio memperoleh nilai 9 karena versi dasarnya gratis dengan akun Google, sementara fitur lanjutan melalui Studio Pro atau Looker berbayar masih berada dalam kategori biaya yang cukup kompetitif. Untuk integrasi data, Looker Studio mendapat nilai 9 karena sangat kuat dalam menghubungkan berbagai layanan Google Cloud dan tetap menyediakan konektor ke sejumlah sumber data eksternal, meskipun untuk beberapa sistem di luar ekosistem tersebut masih diperlukan konektor pihak ketiga. Pada kustomisasi, Looker Studio mendapat nilai 7 karena menyediakan opsi kustomisasi yang memadai untuk kebutuhan dashboard standar, tetapi fitur visual lanjutan dan logika analitik yang sangat kompleks lebih terbatas dibanding Power BI dan Tableau.
+\begin{align*}
+u(\text{Looker Studio})
+    &= (0.25 \times 8) + (0.20 \times 8) + (0.15 \times 9) + (0.20 \times 9)\\ 
+    &+ (0.20 \times 7)\\
+    &= 2.00 + 1.60 + 1.35 + 1.80 + 1.40\\
+    &= 8.15
+\end{align*}
+
+\end{enumerate}
+
+Berdasarkan hasil penilaian dan perhitungan menggunakan metode SMART, ketiga platform memiliki keunggulan masing-masing, namun Power BI menghasilkan skor total tertinggi yaitu 8,40, diikuti oleh Looker Studio dengan skor 8,15 dan Tableau dengan skor 7,80. Power BI memperoleh nilai yang konsisten tinggi pada aspek kesesuaian skala organisasi, integrasi data, biaya, dan kustomisasi, terutama karena selaras dengan ekosistem Microsoft yang sudah digunakan di ITB sehingga proses integrasi, pengelolaan akses, serta pemanfaatan laporan menjadi lebih efisien. Tableau tetap menonjol dalam fleksibilitas visualisasi dan eksplorasi data tingkat lanjut, sedangkan Looker Studio unggul dari sisi biaya dan kemudahan awal bagi pengguna yang kuat di ekosistem Google, meskipun keduanya masih berada sedikit di bawah Power BI ketika seluruh kriteria dan bobot dipertimbangkan. Dengan demikian, Power BI dapat ditetapkan sebagai alternatif solusi utama yang paling sesuai untuk pengembangan dashboard pemantauan kinerja pada konteks tugas akhir ini.
+
